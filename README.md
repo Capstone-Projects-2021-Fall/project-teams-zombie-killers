@@ -31,8 +31,8 @@ This project would benefit from team members who are interested in designing a s
 
 
 ## Contributors 
-Darren W Chen
-Marcus Anestad
-Julio Racaku
-Francesko Racaku
-Tonmoy Chak
+- Darren W Chen
+- Marcus Anestad
+- Julio Racaku
+- Francesko Racaku
+- Tonmoy Chak
