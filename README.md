@@ -21,7 +21,8 @@ Our project is a new addition to the tower defense genre, similar to other mobil
 - Android phone (for Android testing)
 
 **Software:**
-- Unity Personal or Unity Student
+- Unity Personal or Unity Student 
+  - Version 2020.3.17f1
 - C#
 - Visual Studio (comes with Unity download)
 
