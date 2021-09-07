@@ -27,3 +27,9 @@ Our project is a new addition to the tower defense genre, similar to other mobil
 
 **Team Members**
 This project would benefit from team members who are interested in designing a simple mobile game, and is a good first hands-on experience with the Unity game engine as well as C# for those who have never touched game development before. Team members who are familiar with C/Java/OOP in general should have a smooth transition to C#, and Unity is very user/developer-friendly with the help of the Unity Inspector. Interest or past experience in mobile app development, as well as interest in the tower defense mobile game in general is a plus. The project would also benefit from team members with skills in art/sound design to generate assets for the game (although this is not strictly necessary!).
+
+* Xhuljano Racaku
+* Marcus Anestad
+* Francesko Racaku
+* Tonmoy Chakraborty
+* Darren Chen
