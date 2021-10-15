@@ -5,9 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ScreenLoad : MonoBehaviour
 {
-
-    [SerializeField] int wait = 3;
-    int currentSceneIndex;
+    [SerializeField] public int wait = 3;
+    private int currentSceneIndex;
 
     // Use this for initialization
     void Start()
@@ -28,11 +27,5 @@ public class ScreenLoad : MonoBehaviour
     public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
