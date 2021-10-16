@@ -10,14 +10,14 @@ public class ZombieMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed += Random.Range(-0.1f, 0.1f);
+        //speed += Random.Range(-0.1f, 0.1f);
         StartCoroutine(ZombieMove());
     }
 
     IEnumerator ZombieMove()
     {
         int endOfBoardCounter = 0;
-        while (endOfBoardCounter != 10)
+        while (endOfBoardCounter != 22)
         {
             yield return new WaitForSeconds(speed);
             if (gameObject != null)
