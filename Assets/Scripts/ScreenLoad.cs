@@ -18,6 +18,8 @@ public class ScreenLoad : MonoBehaviour
         }
     }
 
+    
+    /// <returns></returns>
     IEnumerator WaitingTime()
     {
         yield return new WaitForSeconds(wait);
@@ -28,7 +30,8 @@ public class ScreenLoad : MonoBehaviour
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
-
+    
+    
     // Update is called once per frame
     void Update()
     {
