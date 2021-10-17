@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class LevelSelection : MonoBehaviour
 {
 
-	public void Level2() {  
+    public void Level2()
+    {
         SceneManager.LoadScene("NewLevel2");
     }
 
@@ -14,4 +15,9 @@ public class LevelSelection : MonoBehaviour
     {
         SceneManager.LoadScene("SettingsMenu");
     }
-} 
+
+    public void BackScreen()
+    {
+        SceneManager.LoadScene("StartScreen");
+    }
+}
