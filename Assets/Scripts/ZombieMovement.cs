@@ -36,6 +36,11 @@ public class ZombieMovement : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }    
+
+        if(collision.name == "TempDefender(Clone)")
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }
 
