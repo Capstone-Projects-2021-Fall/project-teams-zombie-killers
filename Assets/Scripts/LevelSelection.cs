@@ -20,4 +20,9 @@ public class LevelSelection : MonoBehaviour
     {
         SceneManager.LoadScene("StartScreen");
     }
+
+    public void NameSelect()
+    {
+        SceneManager.LoadScene("StartScreen");
+    }
 }
