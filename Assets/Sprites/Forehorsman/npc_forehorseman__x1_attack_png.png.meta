@@ -1,0 +1,2400 @@
+fileFormatVersion: 2
+guid: d8547565bff8b3c49bc3000e8072d5fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5307586033485169332
+    second: npc_forehorseman__x1_attack_png_0
+  - first:
+      213: 1615272315817041198
+    second: npc_forehorseman__x1_attack_png_1
+  - first:
+      213: 3033232598760160333
+    second: npc_forehorseman__x1_attack_png_2
+  - first:
+      213: -1149021495181741046
+    second: npc_forehorseman__x1_attack_png_3
+  - first:
+      213: 6276995365621547776
+    second: npc_forehorseman__x1_attack_png_4
+  - first:
+      213: -3656646637740468410
+    second: npc_forehorseman__x1_attack_png_5
+  - first:
+      213: -3477720704070341408
+    second: npc_forehorseman__x1_attack_png_6
+  - first:
+      213: -2673615191592944967
+    second: npc_forehorseman__x1_attack_png_7
+  - first:
+      213: -356944074009498530
+    second: npc_forehorseman__x1_attack_png_8
+  - first:
+      213: 2090236908657433913
+    second: npc_forehorseman__x1_attack_png_9
+  - first:
+      213: -8880569420999163587
+    second: npc_forehorseman__x1_attack_png_10
+  - first:
+      213: -6216376448726590564
+    second: npc_forehorseman__x1_attack_png_11
+  - first:
+      213: -622638563438685357
+    second: npc_forehorseman__x1_attack_png_12
+  - first:
+      213: 734791586924534466
+    second: npc_forehorseman__x1_attack_png_13
+  - first:
+      213: 2061776071144520625
+    second: npc_forehorseman__x1_attack_png_14
+  - first:
+      213: -4892336821829215648
+    second: npc_forehorseman__x1_attack_png_15
+  - first:
+      213: 533348215833144248
+    second: npc_forehorseman__x1_attack_png_16
+  - first:
+      213: 8484323938286067566
+    second: npc_forehorseman__x1_attack_png_17
+  - first:
+      213: -1326687270413767772
+    second: npc_forehorseman__x1_attack_png_18
+  - first:
+      213: 6305881338919282429
+    second: npc_forehorseman__x1_attack_png_19
+  - first:
+      213: 4634555040290846002
+    second: npc_forehorseman__x1_attack_png_20
+  - first:
+      213: 2334634035493422468
+    second: npc_forehorseman__x1_attack_png_21
+  - first:
+      213: 9177343672694204217
+    second: npc_forehorseman__x1_attack_png_22
+  - first:
+      213: 1955077928676357182
+    second: npc_forehorseman__x1_attack_png_23
+  - first:
+      213: -6723503295953683258
+    second: npc_forehorseman__x1_attack_png_24
+  - first:
+      213: -1698302337353339477
+    second: npc_forehorseman__x1_attack_png_25
+  - first:
+      213: 8748802836687913496
+    second: npc_forehorseman__x1_attack_png_26
+  - first:
+      213: -2181447852300781000
+    second: npc_forehorseman__x1_attack_png_27
+  - first:
+      213: 3970118228572475159
+    second: npc_forehorseman__x1_attack_png_28
+  - first:
+      213: -8855545895170133287
+    second: npc_forehorseman__x1_attack_png_29
+  - first:
+      213: 5530933187563904967
+    second: npc_forehorseman__x1_attack_png_30
+  - first:
+      213: 2240258954879341909
+    second: npc_forehorseman__x1_attack_png_31
+  - first:
+      213: -1475266642844258414
+    second: npc_forehorseman__x1_attack_png_32
+  - first:
+      213: 1252102452763636238
+    second: npc_forehorseman__x1_attack_png_33
+  - first:
+      213: 5375152213456851469
+    second: npc_forehorseman__x1_attack_png_34
+  - first:
+      213: -3442079700988741006
+    second: npc_forehorseman__x1_attack_png_35
+  - first:
+      213: 5257745129631999960
+    second: npc_forehorseman__x1_attack_png_36
+  - first:
+      213: 2843592263773608417
+    second: npc_forehorseman__x1_attack_png_37
+  - first:
+      213: -8941058169641056670
+    second: npc_forehorseman__x1_attack_png_38
+  - first:
+      213: -377458485775735653
+    second: npc_forehorseman__x1_attack_png_39
+  - first:
+      213: 2075330968920848486
+    second: npc_forehorseman__x1_attack_png_40
+  - first:
+      213: 8557177338243929711
+    second: npc_forehorseman__x1_attack_png_41
+  - first:
+      213: 8750250851860190377
+    second: npc_forehorseman__x1_attack_png_42
+  - first:
+      213: 8121722959822130906
+    second: npc_forehorseman__x1_attack_png_43
+  - first:
+      213: -8039011101418369569
+    second: npc_forehorseman__x1_attack_png_44
+  - first:
+      213: -2710355486728073134
+    second: npc_forehorseman__x1_attack_png_45
+  - first:
+      213: 1922125882528241456
+    second: npc_forehorseman__x1_attack_png_46
+  - first:
+      213: 6691946416272720688
+    second: npc_forehorseman__x1_attack_png_47
+  - first:
+      213: 5002542942843954229
+    second: npc_forehorseman__x1_attack_png_48
+  - first:
+      213: 3317812825410588793
+    second: npc_forehorseman__x1_attack_png_49
+  - first:
+      213: -8695011852612025520
+    second: npc_forehorseman__x1_attack_png_50
+  - first:
+      213: -4617653353790027877
+    second: npc_forehorseman__x1_attack_png_51
+  - first:
+      213: 8845937052565786954
+    second: npc_forehorseman__x1_attack_png_52
+  - first:
+      213: 565318352689850444
+    second: npc_forehorseman__x1_attack_png_53
+  - first:
+      213: 5798362445148465829
+    second: npc_forehorseman__x1_attack_png_54
+  - first:
+      213: 7987345659759996664
+    second: npc_forehorseman__x1_attack_png_55
+  - first:
+      213: -1908266985657960069
+    second: npc_forehorseman__x1_attack_png_56
+  - first:
+      213: -8563107919188547821
+    second: npc_forehorseman__x1_attack_png_57
+  - first:
+      213: -2430447973233099736
+    second: npc_forehorseman__x1_attack_png_58
+  - first:
+      213: -8000609525846147667
+    second: npc_forehorseman__x1_attack_png_59
+  - first:
+      213: 7108902272449168343
+    second: npc_forehorseman__x1_attack_png_60
+  - first:
+      213: -496593237026175597
+    second: npc_forehorseman__x1_attack_png_61
+  - first:
+      213: -3688131505673683331
+    second: npc_forehorseman__x1_attack_png_62
+  - first:
+      213: -2599120018757512436
+    second: npc_forehorseman__x1_attack_png_63
+  - first:
+      213: -3013609081751280882
+    second: npc_forehorseman__x1_attack_png_64
+  - first:
+      213: 1483862090950419948
+    second: npc_forehorseman__x1_attack_png_65
+  - first:
+      213: -1513593376086315333
+    second: npc_forehorseman__x1_attack_png_66
+  - first:
+      213: 2759968126662209513
+    second: npc_forehorseman__x1_attack_png_67
+  - first:
+      213: 9092244103000463102
+    second: npc_forehorseman__x1_attack_png_68
+  - first:
+      213: -2009904002977931300
+    second: npc_forehorseman__x1_attack_png_69
+  - first:
+      213: 2420219331082023676
+    second: npc_forehorseman__x1_attack_png_70
+  - first:
+      213: -4936590017961422958
+    second: npc_forehorseman__x1_attack_png_71
+  - first:
+      213: 3383896845063522576
+    second: npc_forehorseman__x1_attack_png_72
+  - first:
+      213: 1350982583987350044
+    second: npc_forehorseman__x1_attack_png_73
+  - first:
+      213: 4930760069278347664
+    second: npc_forehorseman__x1_attack_png_74
+  - first:
+      213: 9023324582946347429
+    second: npc_forehorseman__x1_attack_png_75
+  - first:
+      213: -2821893219301289178
+    second: npc_forehorseman__x1_attack_png_76
+  - first:
+      213: 2304973587409730040
+    second: npc_forehorseman__x1_attack_png_77
+  - first:
+      213: -3995059785982721013
+    second: npc_forehorseman__x1_attack_png_78
+  - first:
+      213: -7753602379246017190
+    second: npc_forehorseman__x1_attack_png_79
+  - first:
+      213: -2688873716306232324
+    second: npc_forehorseman__x1_attack_png_80
+  - first:
+      213: -8377198807331627619
+    second: npc_forehorseman__x1_attack_png_81
+  - first:
+      213: -1494429530724565
+    second: npc_forehorseman__x1_attack_png_82
+  - first:
+      213: -3287831647572947810
+    second: npc_forehorseman__x1_attack_png_83
+  - first:
+      213: -4634656468397256516
+    second: npc_forehorseman__x1_attack_png_84
+  - first:
+      213: -8242830902146485566
+    second: npc_forehorseman__x1_attack_png_85
+  - first:
+      213: -2374042527724928145
+    second: npc_forehorseman__x1_attack_png_86
+  - first:
+      213: -514659594009687840
+    second: npc_forehorseman__x1_attack_png_87
+  - first:
+      213: 7169717259202178288
+    second: npc_forehorseman__x1_attack_png_88
+  - first:
+      213: 486554031434374343
+    second: npc_forehorseman__x1_attack_png_89
+  - first:
+      213: -8235989648310242181
+    second: npc_forehorseman__x1_attack_png_90
+  - first:
+      213: -2220608963291359666
+    second: npc_forehorseman__x1_attack_png_91
+  - first:
+      213: -3221035738257329253
+    second: npc_forehorseman__x1_attack_png_92
+  - first:
+      213: 3166650336651634086
+    second: npc_forehorseman__x1_attack_png_93
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3636
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dba439f9aa756b0800000000000000
+      internalID: -5307586033485169332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3636
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d1cc7fc999a6610800000000000000
+      internalID: 1615272315817041198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3636
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cfb325af4381a20800000000000000
+      internalID: 3033232598760160333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 3636
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a047764b90bdd00f0800000000000000
+      internalID: -1149021495181741046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_4
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3636
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00345a0370e5c1750800000000000000
+      internalID: 6276995365621547776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3434
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6475a58b14bf04dc0800000000000000
+      internalID: -3656646637740468410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3434
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecadd50277acbfc0800000000000000
+      internalID: -3477720704070341408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3434
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bab30f062965ead0800000000000000
+      internalID: -2673615191592944967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_8
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 3434
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cabff7141eb0bf0800000000000000
+      internalID: -356944074009498530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_9
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3434
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ddfe4d463020d10800000000000000
+      internalID: 2090236908657433913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3232
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d310622b921e1c480800000000000000
+      internalID: -8880569420999163587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3232
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b1c8f3e8efab9a0800000000000000
+      internalID: -6216376448726590564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3232
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35317c28681fb57f0800000000000000
+      internalID: -622638563438685357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_13
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 3232
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca15922e01823a00800000000000000
+      internalID: 734791586924534466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_14
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3232
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb38f6b966ec9c10800000000000000
+      internalID: 2061776071144520625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3030
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a5e4dc49dea1cb0800000000000000
+      internalID: -4892336821829215648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_16
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3030
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bba2526065d66700800000000000000
+      internalID: 533348215833144248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_17
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3030
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f52e48baf5eb570800000000000000
+      internalID: 8484323938286067566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_18
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 3030
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab64f6e4f8a69de0800000000000000
+      internalID: -1326687270413767772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_19
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3030
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df66c02faadf28750800000000000000
+      internalID: 6305881338919282429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2828
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2353884114f315040800000000000000
+      internalID: 4634555040290846002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_21
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2828
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4854f1e2949466020800000000000000
+      internalID: 2334634035493422468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_22
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2828
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937ed9852797c5f70800000000000000
+      internalID: 9177343672694204217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_23
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2828
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34f5f68405d12b10800000000000000
+      internalID: 1955077928676357182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_24
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2828
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc338eff5151b2a0800000000000000
+      internalID: -6723503295953683258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2626
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bada6dca50b6e68e0800000000000000
+      internalID: -1698302337353339477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_26
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2626
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81286baa3ddf96970800000000000000
+      internalID: 8748802836687913496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_27
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2626
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ab2937cb0f9b1e0800000000000000
+      internalID: -2181447852300781000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_28
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2626
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f8d5a8e71b81730800000000000000
+      internalID: 3970118228572475159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_29
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2626
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d237325de7ca1580800000000000000
+      internalID: -8855545895170133287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2424
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf5a211e62d1cc40800000000000000
+      internalID: 5530933187563904967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_31
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2424
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555987a66aff61f10800000000000000
+      internalID: 2240258954879341909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_32
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2424
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fe84cfdccc68be0800000000000000
+      internalID: -1475266642844258414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_33
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2424
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e023f5ffb8c506110800000000000000
+      internalID: 1252102452763636238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_34
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2424
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0210c89570689a40800000000000000
+      internalID: 5375152213456851469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2222
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27abbf5bfb64b30d0800000000000000
+      internalID: -3442079700988741006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_36
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2222
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d76143b65347f840800000000000000
+      internalID: 5257745129631999960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_37
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2222
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e956401918767720800000000000000
+      internalID: 2843592263773608417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_38
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2222
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266c07a67fafae380800000000000000
+      internalID: -8941058169641056670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_39
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2222
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9461edc18ff2caf0800000000000000
+      internalID: -377458485775735653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2020
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668f4e9458e0dcc10800000000000000
+      internalID: 2075330968920848486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_41
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2020
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f665d06837331c670800000000000000
+      internalID: 8557177338243929711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_42
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2020
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a49fa8f9c22f6970800000000000000
+      internalID: 8750250851860190377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_43
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2020
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade0550500826b070800000000000000
+      internalID: 8121722959822130906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_44
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2020
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd498aeef1bf6090800000000000000
+      internalID: -8039011101418369569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1818
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250da8e7b02e26ad0800000000000000
+      internalID: -2710355486728073134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_46
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1818
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0371ea96e43ccaa10800000000000000
+      internalID: 1922125882528241456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_47
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1818
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03342e56fc19edc50800000000000000
+      internalID: 6691946416272720688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_48
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1818
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534e9d94d4a9c6540800000000000000
+      internalID: 5002542942843954229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_49
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1818
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97055d9af2d3b0e20800000000000000
+      internalID: 3317812825410588793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1616
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053cf37c9cc155780800000000000000
+      internalID: -8695011852612025520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_51
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1616
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9744777dbccaefb0800000000000000
+      internalID: -4617653353790027877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_52
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1616
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4156aba1e413ca70800000000000000
+      internalID: 8845937052565786954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_53
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1616
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48661deb0a68d700800000000000000
+      internalID: 565318352689850444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_54
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1616
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa2a0e3cebe77050800000000000000
+      internalID: 5798362445148465829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1414
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fea04c0f80c8de60800000000000000
+      internalID: 7987345659759996664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_56
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1414
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79704779497485e0800000000000000
+      internalID: -1908266985657960069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_57
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1414
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317ae6f77bab92980800000000000000
+      internalID: -8563107919188547821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_58
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1414
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c7f560270554ed0800000000000000
+      internalID: -2430447973233099736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_59
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1414
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad7559760028f090800000000000000
+      internalID: -8000609525846147667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1212
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3cc44c3f4e7a260800000000000000
+      internalID: 7108902272449168343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_61
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1212
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395813df41fbb19f0800000000000000
+      internalID: -496593237026175597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_62
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1212
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7eb467afef11dcc0800000000000000
+      internalID: -3688131505673683331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_63
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1212
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c031a591d121eebd0800000000000000
+      internalID: -2599120018757512436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_64
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1212
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03e256c1828d26d0800000000000000
+      internalID: -3013609081751280882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1010
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5a4cab5bcb79410800000000000000
+      internalID: 1483862090950419948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_66
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1010
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeadf308d2aefae0800000000000000
+      internalID: -1513593376086315333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_67
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1010
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efe91563606d4620800000000000000
+      internalID: 2759968126662209513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_68
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1010
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef69b72c6d32e2e70800000000000000
+      internalID: 9092244103000463102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_69
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1010
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf5ddd45f26b14e0800000000000000
+      internalID: -2009904002977931300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 808
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf27da3a8a8569120800000000000000
+      internalID: 2420219331082023676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_71
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 808
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f8ba9a885bd7bb0800000000000000
+      internalID: -4936590017961422958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_72
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 808
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019839e704406fe20800000000000000
+      internalID: 3383896845063522576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_73
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 808
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a2e489087afb210800000000000000
+      internalID: 1350982583987350044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_74
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 808
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0913402a8249d6440800000000000000
+      internalID: 4930760069278347664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9119b86e9493d70800000000000000
+      internalID: 9023324582946347429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_76
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 606
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623967d611f96d8d0800000000000000
+      internalID: -2821893219301289178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_77
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 606
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9f636f349ecff10800000000000000
+      internalID: 2304973587409730040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_78
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 606
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b044d089a42be88c0800000000000000
+      internalID: -3995059785982721013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_79
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 606
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55ea6767bba56490800000000000000
+      internalID: -7753602379246017190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbbeade9933faad0800000000000000
+      internalID: -2688873716306232324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_81
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 404
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d1c2ca1163ebb80800000000000000
+      internalID: -8377198807331627619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_82
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 404
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27eda203d0bafff0800000000000000
+      internalID: -1494429530724565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_83
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 404
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c802549864f52d0800000000000000
+      internalID: -3287831647572947810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_84
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 404
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb017395f746eafb0800000000000000
+      internalID: -4634656468397256516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c232f587f49b9d80800000000000000
+      internalID: -8242830902146485566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_86
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 202
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63094536e4bd0fd0800000000000000
+      internalID: -2374042527724928145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_87
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 202
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e84ec673df8bd8f0800000000000000
+      internalID: -514659594009687840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_88
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 202
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcabb64cd3ff7360800000000000000
+      internalID: 7169717259202178288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_89
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 202
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc1eaf405690c600800000000000000
+      internalID: 486554031434374343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b747cae0d03e3bd80800000000000000
+      internalID: -8235989648310242181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_91
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4658f5c9efce21e0800000000000000
+      internalID: -2220608963291359666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_92
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b937554df059c43d0800000000000000
+      internalID: -3221035738257329253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_forehorseman__x1_attack_png_93
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5edfb14b332fb20800000000000000
+      internalID: 3166650336651634086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
