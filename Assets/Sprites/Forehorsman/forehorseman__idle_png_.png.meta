@@ -1,0 +1,2424 @@
+fileFormatVersion: 2
+guid: 73b0cf9bd4880534b9f3dde311ea75d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6346421827303618744
+    second: forehorseman__idle_png__0
+  - first:
+      213: -4913314468341967507
+    second: forehorseman__idle_png__1
+  - first:
+      213: -3690973259343006812
+    second: forehorseman__idle_png__2
+  - first:
+      213: 7202565580322735899
+    second: forehorseman__idle_png__3
+  - first:
+      213: 6724971644835308767
+    second: forehorseman__idle_png__4
+  - first:
+      213: -6658684124902548601
+    second: forehorseman__idle_png__5
+  - first:
+      213: -7214232935247742404
+    second: forehorseman__idle_png__6
+  - first:
+      213: 4260589228677724485
+    second: forehorseman__idle_png__7
+  - first:
+      213: 5944968007142758601
+    second: forehorseman__idle_png__8
+  - first:
+      213: 8527799465074223892
+    second: forehorseman__idle_png__9
+  - first:
+      213: 4190218681813185005
+    second: forehorseman__idle_png__10
+  - first:
+      213: -1947625493023951705
+    second: forehorseman__idle_png__11
+  - first:
+      213: 3120365491397841784
+    second: forehorseman__idle_png__12
+  - first:
+      213: 1878738381253397255
+    second: forehorseman__idle_png__13
+  - first:
+      213: 8859506362427785124
+    second: forehorseman__idle_png__14
+  - first:
+      213: -6523842452721637152
+    second: forehorseman__idle_png__15
+  - first:
+      213: 8113324075175884519
+    second: forehorseman__idle_png__16
+  - first:
+      213: -6850075987198874877
+    second: forehorseman__idle_png__17
+  - first:
+      213: -4917277072529501917
+    second: forehorseman__idle_png__18
+  - first:
+      213: 2861046685575941556
+    second: forehorseman__idle_png__19
+  - first:
+      213: -204897109312860010
+    second: forehorseman__idle_png__20
+  - first:
+      213: 7360477509348106296
+    second: forehorseman__idle_png__21
+  - first:
+      213: 8218544897738706315
+    second: forehorseman__idle_png__22
+  - first:
+      213: -1550851466738844203
+    second: forehorseman__idle_png__23
+  - first:
+      213: -3880604647911488588
+    second: forehorseman__idle_png__24
+  - first:
+      213: 8989733160932289444
+    second: forehorseman__idle_png__25
+  - first:
+      213: 32275300419831846
+    second: forehorseman__idle_png__26
+  - first:
+      213: -1428520710132937985
+    second: forehorseman__idle_png__27
+  - first:
+      213: -5632123402514547369
+    second: forehorseman__idle_png__28
+  - first:
+      213: 9151826903938972063
+    second: forehorseman__idle_png__29
+  - first:
+      213: 5706656859511795878
+    second: forehorseman__idle_png__30
+  - first:
+      213: 2194701199827158031
+    second: forehorseman__idle_png__31
+  - first:
+      213: -3573219939863220336
+    second: forehorseman__idle_png__32
+  - first:
+      213: 3579603792719147887
+    second: forehorseman__idle_png__33
+  - first:
+      213: 2723858094393917812
+    second: forehorseman__idle_png__34
+  - first:
+      213: 3736638857712548936
+    second: forehorseman__idle_png__35
+  - first:
+      213: 4553108367133600236
+    second: forehorseman__idle_png__36
+  - first:
+      213: -2324232319200826370
+    second: forehorseman__idle_png__37
+  - first:
+      213: 3628027141558311578
+    second: forehorseman__idle_png__38
+  - first:
+      213: 1415271594543327007
+    second: forehorseman__idle_png__39
+  - first:
+      213: 746984806108603209
+    second: forehorseman__idle_png__40
+  - first:
+      213: 8185145683888915036
+    second: forehorseman__idle_png__41
+  - first:
+      213: -1873518564172430497
+    second: forehorseman__idle_png__42
+  - first:
+      213: 619281482817289712
+    second: forehorseman__idle_png__43
+  - first:
+      213: 5187533089492435465
+    second: forehorseman__idle_png__44
+  - first:
+      213: 9195907996470699352
+    second: forehorseman__idle_png__45
+  - first:
+      213: -2611171681432790322
+    second: forehorseman__idle_png__46
+  - first:
+      213: 7555381754352937439
+    second: forehorseman__idle_png__47
+  - first:
+      213: -8877547629022143660
+    second: forehorseman__idle_png__48
+  - first:
+      213: -8640116249627502695
+    second: forehorseman__idle_png__49
+  - first:
+      213: 7946486929109211749
+    second: forehorseman__idle_png__50
+  - first:
+      213: 2494549776227439229
+    second: forehorseman__idle_png__51
+  - first:
+      213: -5545187838584757612
+    second: forehorseman__idle_png__52
+  - first:
+      213: 1815816184915177651
+    second: forehorseman__idle_png__53
+  - first:
+      213: 53382374532792282
+    second: forehorseman__idle_png__54
+  - first:
+      213: 1278039801406860059
+    second: forehorseman__idle_png__55
+  - first:
+      213: 7688746589129403526
+    second: forehorseman__idle_png__56
+  - first:
+      213: 6321749703729040809
+    second: forehorseman__idle_png__57
+  - first:
+      213: 4013471840490095068
+    second: forehorseman__idle_png__58
+  - first:
+      213: 7041999204830568195
+    second: forehorseman__idle_png__59
+  - first:
+      213: -2238226515196031042
+    second: forehorseman__idle_png__60
+  - first:
+      213: -6440869132417576882
+    second: forehorseman__idle_png__61
+  - first:
+      213: 3709180750344798336
+    second: forehorseman__idle_png__62
+  - first:
+      213: -3061879989489805201
+    second: forehorseman__idle_png__63
+  - first:
+      213: 4391081205424197187
+    second: forehorseman__idle_png__64
+  - first:
+      213: -8699237955780729026
+    second: forehorseman__idle_png__65
+  - first:
+      213: -2722418612903828918
+    second: forehorseman__idle_png__66
+  - first:
+      213: 6883535396524139557
+    second: forehorseman__idle_png__67
+  - first:
+      213: 5025410582812186923
+    second: forehorseman__idle_png__68
+  - first:
+      213: -1516483062759937247
+    second: forehorseman__idle_png__69
+  - first:
+      213: -7438386519396427822
+    second: forehorseman__idle_png__70
+  - first:
+      213: -8751009107808073028
+    second: forehorseman__idle_png__71
+  - first:
+      213: -6208651059335503969
+    second: forehorseman__idle_png__72
+  - first:
+      213: -966575389532496402
+    second: forehorseman__idle_png__73
+  - first:
+      213: 1057850396876584948
+    second: forehorseman__idle_png__74
+  - first:
+      213: -465220656053981108
+    second: forehorseman__idle_png__75
+  - first:
+      213: -6504711957505608012
+    second: forehorseman__idle_png__76
+  - first:
+      213: -3113389158025399302
+    second: forehorseman__idle_png__77
+  - first:
+      213: 4492869949832077088
+    second: forehorseman__idle_png__78
+  - first:
+      213: -6317690930357392953
+    second: forehorseman__idle_png__79
+  - first:
+      213: -7105498342859193429
+    second: forehorseman__idle_png__80
+  - first:
+      213: -1351936868358953518
+    second: forehorseman__idle_png__81
+  - first:
+      213: 6136376114350532794
+    second: forehorseman__idle_png__82
+  - first:
+      213: 3031135162461663821
+    second: forehorseman__idle_png__83
+  - first:
+      213: -1275964451717077068
+    second: forehorseman__idle_png__84
+  - first:
+      213: 7722304207401984773
+    second: forehorseman__idle_png__85
+  - first:
+      213: 9083046696792322626
+    second: forehorseman__idle_png__86
+  - first:
+      213: -4286028913578967761
+    second: forehorseman__idle_png__87
+  - first:
+      213: -9134380540472233453
+    second: forehorseman__idle_png__88
+  - first:
+      213: -7389228784440110365
+    second: forehorseman__idle_png__89
+  - first:
+      213: 4061180652853018499
+    second: forehorseman__idle_png__90
+  - first:
+      213: -7484291764214300121
+    second: forehorseman__idle_png__91
+  - first:
+      213: 8896837249907244929
+    second: forehorseman__idle_png__92
+  - first:
+      213: -5408754391427069225
+    second: forehorseman__idle_png__93
+  - first:
+      213: 2346405273790466568
+    second: forehorseman__idle_png__94
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: forehorseman__idle_png__0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3636
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84748cc09fafce7a0800000000000000
+      internalID: -6346421827303618744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3636
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6590bcd58660dbb0800000000000000
+      internalID: -4913314468341967507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3636
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3f461506707ccc0800000000000000
+      internalID: -3690973259343006812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 3636
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1787960c37a4f360800000000000000
+      internalID: 7202565580322735899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__4
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3636
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4abfe9416e35d50800000000000000
+      internalID: 6724971644835308767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3434
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b96af411a9793a0800000000000000
+      internalID: -6658684124902548601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3434
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a72a73e55e1eb90800000000000000
+      internalID: -7214232935247742404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3434
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549f0357457a02b30800000000000000
+      internalID: 4260589228677724485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__8
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 3434
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c85eca97e4c08250800000000000000
+      internalID: 5944968007142758601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__9
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3434
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41be3876e64d85670800000000000000
+      internalID: 8527799465074223892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3232
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de13eacb0b5a62a30800000000000000
+      internalID: 4190218681813185005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3232
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4ffccdee4a8f4e0800000000000000
+      internalID: -1947625493023951705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3232
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873d72cc1e3cd4b20800000000000000
+      internalID: 3120365491397841784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__13
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 3232
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b40809a9e921a10800000000000000
+      internalID: 1878738381253397255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__14
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3232
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af32d1d81a43fa70800000000000000
+      internalID: 8859506362427785124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3030
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8e9e2aad7a675a0800000000000000
+      internalID: -6523842452721637152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__16
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3030
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6bb789241589070800000000000000
+      internalID: 8113324075175884519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__17
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3030
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30be392de24afe0a0800000000000000
+      internalID: -6850075987198874877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__18
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 3030
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321d4bd2e8252cbb0800000000000000
+      internalID: -4917277072529501917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__19
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3030
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd00935dca74b720800000000000000
+      internalID: 2861046685575941556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2828
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69017e72a2f082df0800000000000000
+      internalID: -204897109312860010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__21
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2828
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83022f91c4ba52660800000000000000
+      internalID: 7360477509348106296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__22
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2828
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d80507a032e0270800000000000000
+      internalID: 8218544897738706315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__23
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2828
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd33a9cec44a7ae0800000000000000
+      internalID: -1550851466738844203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__24
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2828
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3818f02a2552ac0800000000000000
+      internalID: -3880604647911488588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2626
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab2be22ea2f1cc70800000000000000
+      internalID: 8989733160932289444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__26
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2626
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6280b88f63aa27000800000000000000
+      internalID: 32275300419831846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__27
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2626
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffacc369bffdc2ce0800000000000000
+      internalID: -1428520710132937985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__28
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2626
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75db4fd0b9da6d1b0800000000000000
+      internalID: -5632123402514547369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__29
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2626
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f993527a412d10f70800000000000000
+      internalID: 9151826903938972063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2424
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a03f36bd2e123f40800000000000000
+      internalID: 5706656859511795878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__31
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2424
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0442dbfc15257e10800000000000000
+      internalID: 2194701199827158031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__32
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2424
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f2c1c756f596ec0800000000000000
+      internalID: -3573219939863220336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__33
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2424
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f637aa51fae4da130800000000000000
+      internalID: 3579603792719147887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__34
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2424
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4710ce651861dc520800000000000000
+      internalID: 2723858094393917812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2222
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cb0e75e353bd330800000000000000
+      internalID: 3736638857712548936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__36
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2222
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce96bdebfe3ef2f30800000000000000
+      internalID: 4553108367133600236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__37
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2222
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb6d8e150baebfd0800000000000000
+      internalID: -2324232319200826370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__38
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2222
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a1f009677595230800000000000000
+      internalID: 3628027141558311578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__39
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2222
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17a47d440e04a310800000000000000
+      internalID: 1415271594543327007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2020
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943a7b439b2dd5a00800000000000000
+      internalID: 746984806108603209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__41
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2020
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52450bf1aa779170800000000000000
+      internalID: 8185145683888915036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__42
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2020
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53076ecacceff5e0800000000000000
+      internalID: -1873518564172430497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__43
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2020
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd3d4f3a31289800800000000000000
+      internalID: 619281482817289712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__44
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2020
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90208c33cd1ddf740800000000000000
+      internalID: 5187533089492435465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1818
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8556fccc99d6e9f70800000000000000
+      internalID: 9195907996470699352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__46
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1818
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca93a8b03143cbd0800000000000000
+      internalID: -2611171681432790322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__47
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1818
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9acaaecab1ad860800000000000000
+      internalID: 7555381754352937439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__48
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1818
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b1687777d9cc480800000000000000
+      internalID: -8877547629022143660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__49
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1818
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9975fda5c04281880800000000000000
+      internalID: -8640116249627502695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1616
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ad6dd72c7974e60800000000000000
+      internalID: 7946486929109211749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__51
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1616
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7211960ecb6e9220800000000000000
+      internalID: 2494549776227439229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__52
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1616
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492e65c5a098b03b0800000000000000
+      internalID: -5545187838584757612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__53
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1616
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b036471333133910800000000000000
+      internalID: 1815816184915177651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__54
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1616
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf3b4f9cf6adb000800000000000000
+      internalID: 53382374532792282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1414
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1baaa39d628cb110800000000000000
+      internalID: 1278039801406860059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__56
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1414
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ced0d394ae3ba60800000000000000
+      internalID: 7688746589129403526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__57
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1414
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad43b98cdd5bb750800000000000000
+      internalID: 6321749703729040809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__58
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1414
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd10278ef57b2b730800000000000000
+      internalID: 4013471840490095068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__59
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1414
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f528877f43ab160800000000000000
+      internalID: 7041999204830568195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1212
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf41e2d7d830f0e0800000000000000
+      internalID: -2238226515196031042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__61
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1212
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40d87536af6d96a0800000000000000
+      internalID: -6440869132417576882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__62
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1212
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080c4088d38a97330800000000000000
+      internalID: 3709180750344798336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__63
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1212
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6855914f540285d0800000000000000
+      internalID: -3061879989489805201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__64
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1212
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e0435671140fc30800000000000000
+      internalID: 4391081205424197187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1010
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3728157b29164780800000000000000
+      internalID: -8699237955780729026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__66
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1010
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42a4ff02b6083ad0800000000000000
+      internalID: -2722418612903828918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__67
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1010
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52426acf8fa378f50800000000000000
+      internalID: 6883535396524139557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__68
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1010
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29520f9c48ddb540800000000000000
+      internalID: 5025410582812186923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__69
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1010
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b2c4860be54fae0800000000000000
+      internalID: -1516483062759937247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 808
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d75251feda85c890800000000000000
+      internalID: -7438386519396427822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__71
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 808
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba44eec49b2e8680800000000000000
+      internalID: -8751009107808073028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__72
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 808
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f54f1a1c076d9a0800000000000000
+      internalID: -6208651059335503969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__73
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 808
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedd74aedc80692f0800000000000000
+      internalID: -966575389532496402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__74
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 808
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7b55bc45d3eae00800000000000000
+      internalID: 1057850396876584948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c407ab537443b89f0800000000000000
+      internalID: -465220656053981108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__76
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 606
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b674a620fe9ab5a0800000000000000
+      internalID: -6504711957505608012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__77
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 606
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3f7546e050bc4d0800000000000000
+      internalID: -3113389158025399302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__78
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 606
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f94c54a61e95e30800000000000000
+      internalID: 4492869949832077088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__79
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 606
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c92757429d0358a0800000000000000
+      internalID: -6317690930357392953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba340c957e2346d90800000000000000
+      internalID: -7105498342859193429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__81
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 404
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5e5b2c494fc3de0800000000000000
+      internalID: -1351936868358953518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__82
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 404
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab82e086099c82550800000000000000
+      internalID: 6136376114350532794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__83
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 404
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4239b0ee51c01a20800000000000000
+      internalID: 3031135162461663821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__84
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 404
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7a06d671dda4ee0800000000000000
+      internalID: -1275964451717077068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50323b913c22b2b60800000000000000
+      internalID: 7722304207401984773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__86
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 202
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2427790c8d67d0e70800000000000000
+      internalID: 9083046696792322626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__87
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 202
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d72155967f484c0800000000000000
+      internalID: -4286028913578967761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__88
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 202
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31279e16b492c3180800000000000000
+      internalID: -9134380540472233453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__89
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 202
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e21b53029f247990800000000000000
+      internalID: -7389228784440110365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f3ef569463c5830800000000000000
+      internalID: 4061180652853018499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__91
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72200ae3b44722890800000000000000
+      internalID: -7484291764214300121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__92
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f3f21675ae77b70800000000000000
+      internalID: 8896837249907244929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__93
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dac7ada98e30f4b0800000000000000
+      internalID: -5408754391427069225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forehorseman__idle_png__94
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a426b2a2b109020800000000000000
+      internalID: 2346405273790466568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
