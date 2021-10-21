@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Defender : MonoBehaviour
 {
-    public GameObject cheesesteakPrefab;
+    public GameObject projectilePrefab;
     [SerializeField] private float shootSpeed;
 
     void Awake()
@@ -17,7 +17,7 @@ public class Defender : MonoBehaviour
         while(this)
         {
             yield return new WaitForSeconds(shootSpeed);
-            Instantiate(cheesesteakPrefab, transform);
+            Instantiate(projectilePrefab, transform);
         }
     }
 }

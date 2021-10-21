@@ -16,7 +16,7 @@ public class Projectile : MonoBehaviour
 
     void ProjectileMove()
     {
-        transform.DOLocalMoveX(5, speed).OnComplete(killSelf);
+        transform.DOMoveX(15, speed).OnComplete(killSelf);
     }
 
     IEnumerator ProjectileRotate()

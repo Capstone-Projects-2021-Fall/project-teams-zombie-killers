@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1445794517518768804}
   - component: {fileID: 1445794517518768805}
   - component: {fileID: 1445794517518768806}
+  - component: {fileID: 1036152277}
+  - component: {fileID: -8907154898282456938}
   m_Layer: 0
   m_Name: Forehorseman
   m_TagString: Untagged
@@ -102,3 +104,43 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1036152277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445794517518768807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c10eb98e872114d85fbfc8e6a11c08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 2704267840443860180, guid: f553fc7de413de441904291d65873866, type: 3}
+  shootSpeed: 3
+--- !u!61 &-8907154898282456938
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445794517518768807}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.901496, y: 2.02}
+    newSize: {x: 1.901496, y: 2.02}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.901496, y: 2.02}
+  m_EdgeRadius: 0
