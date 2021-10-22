@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c8f60bbe6da8644bac667ea73ca9f2e, type: 3}
   m_Name: Default Resource
   m_EditorClassIdentifier: 
-  count: 0
+  count: 1000000
   generatedPerInterval: 0
   multiplier: 0
