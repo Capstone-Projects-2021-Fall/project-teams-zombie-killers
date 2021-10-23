@@ -142,5 +142,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4c10eb98e872114d85fbfc8e6a11c08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cheesesteakPrefab: {fileID: 3777083148784818908, guid: 33a27b7b29dec5e44afe7f74eadd72f4, type: 3}
+  projectilePrefab: {fileID: 3777083148784818908, guid: 33a27b7b29dec5e44afe7f74eadd72f4, type: 3}
   shootSpeed: 5
