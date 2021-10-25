@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ScreenLoad : MonoBehaviour
 {
-    [SerializeField] public int wait = 3;
+    public int wait = 3;
     private int currentSceneIndex;
 
     // Use this for initialization
