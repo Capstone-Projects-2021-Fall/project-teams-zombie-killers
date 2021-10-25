@@ -7,6 +7,9 @@ using UnityEngine;
 [System.Serializable]
 public class Resource : ScriptableObject
 { 
+    /// <summary>
+    /// 
+    /// </summary>
     [SerializeField] private float count; //The current balance of this resource
     [SerializeField] private float generatedPerInterval; //The amount awarded every interval (amount/second for example)
     [SerializeField] private float multiplier = 1; //The value to multiply into the interval amount
