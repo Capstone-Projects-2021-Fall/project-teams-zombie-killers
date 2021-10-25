@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class Defenders : MonoBehaviour
 {
-    [SerializeField] int dogeCointCost = 50;
+    [SerializeField] private int dogeCointCost;
 }

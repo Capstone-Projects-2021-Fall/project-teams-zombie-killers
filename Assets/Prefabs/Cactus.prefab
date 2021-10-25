@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &40513235
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 40513236}
-  m_Layer: 0
-  m_Name: Gun
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &40513236
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40513235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.44, y: -0.25, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1884124441212810696}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1884124441212810699
 GameObject:
   m_ObjectHideFlags: 0
@@ -41,8 +11,7 @@ GameObject:
   - component: {fileID: 1884124441212810696}
   - component: {fileID: 1884124441212810697}
   - component: {fileID: 1884124441212810698}
-  - component: {fileID: 10793092}
-  - component: {fileID: 2432596959697188524}
+  - component: {fileID: 1660513852756181606}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -60,8 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.26, y: 2.32, z: 0}
   m_LocalScale: {x: 1.0691024, y: 1.0898423, z: 1}
-  m_Children:
-  - {fileID: 40513236}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -135,7 +103,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &10793092
+--- !u!114 &1660513852756181606
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,21 +112,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1884124441212810699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e881ba83464ada439abd6d6e2e6bd27, type: 3}
+  m_Script: {fileID: 11500000, guid: a4c10eb98e872114d85fbfc8e6a11c08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 3237326078774042281, guid: 9181c366107b7dd4abc24a3beffe3a4c, type: 3}
-  gun: {fileID: 40513235}
---- !u!114 &2432596959697188524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884124441212810699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2db58fae93d5f334b9610ee89b321162, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dogeCointCost: 50
+  projectilePrefab: {fileID: 3237326078774042281, guid: 9181c366107b7dd4abc24a3beffe3a4c, type: 3}
+  shootSpeed: 30
