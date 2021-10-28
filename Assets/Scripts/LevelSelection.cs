@@ -25,4 +25,9 @@ public class LevelSelection : MonoBehaviour
     {
         SceneManager.LoadScene("StartScreen");
     }
+
+    public void AchievementSelect()
+    {
+        SceneManager.LoadScene("Achievement");
+    }
 }

@@ -14,6 +14,7 @@ public class AudioController : MonoBehaviour
 
     private void Awake()
     {
+
         if (m_profiles != null)
             m_profiles.SetProfile(m_profiles);
     }
