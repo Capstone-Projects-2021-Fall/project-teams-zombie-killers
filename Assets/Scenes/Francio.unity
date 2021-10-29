@@ -7369,18 +7369,18 @@ MonoBehaviour:
     hidden: 0
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     display: ForeHorseman
-    description: Place 1 ForeHorseman
+    description: Place 2 ForeHorseman
     ID: ZKS_FOREHORSEMAN
     current: 0
-    goal: 1
+    goal: 2
     unlocked: 0
     hidden: 0
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     display: Cactus
-    description: Place 1 Cactus
+    description: Place 2 Cactus
     ID: ZKS_CACTUS
     current: 0
-    goal: 1
+    goal: 2
     unlocked: 0
     hidden: 0
 --- !u!4 &1717496995
