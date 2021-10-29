@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2334564650524330584}
   m_Layer: 0
   m_Name: Cheesesteak
-  m_TagString: Untagged
+  m_TagString: DefenderProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,3 +123,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+  damage: 2
