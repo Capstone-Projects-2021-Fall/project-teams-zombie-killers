@@ -20,10 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SettingsMenu.unity
     guid: 6abc30a033d987f4f9aa6f587b57ea8f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Achievement.unity
     guid: e9d4388ce59cd4c4ca6330ba613785bc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/NewLevel2.unity
     guid: 659c8a8c52bf641beaed6721855dc3a6
+  - enabled: 1
+    path: Assets/Scenes/Francio.unity
+    guid: 67cbd256cb732a94b88a3f163889d87b
   m_configObjects: {}
