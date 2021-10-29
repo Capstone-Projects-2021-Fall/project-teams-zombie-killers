@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour
 {
-    public GameObject defender;
+    public GameObject defenderPrefab;
+
+    [SerializeField] private float gridSize;
+    [SerializeField] private float halfGridSize;
+
+    private Dictionary<string, Vector2> occupiedSquares;
 
     private void OnMouseDown()
     {
@@ -13,7 +18,7 @@ public class DefenderSpawner : MonoBehaviour
 
     public void SetSelectedDefender(GameObject defenderToSelect)
     {
-        defender = defenderToSelect;
+        defenderPrefab = defenderToSelect;
     }
 
     private Vector2 GetSquareClicked()
@@ -24,17 +29,17 @@ public class DefenderSpawner : MonoBehaviour
         return gridPos;
     }
 
-    private Vector2 SnapToGrid(Vector2 rawWorldPos)
+    private Vector2 SnapToGrid(Vector2 worldPos)
     {
-        float newX = Mathf.RoundToInt(rawWorldPos.x);
-        float newY = Mathf.RoundToInt(rawWorldPos.y);
+        float newX = Mathf.Round(worldPos.x / gridSize + 0.5f) * gridSize - halfGridSize;
+        float newY = Mathf.Round(worldPos.y / gridSize + 0.5f) * gridSize - halfGridSize;
         return new Vector2(newX, newY);
 
     }
 
-    private void SpawnDefender(Vector2 roundedPos)
+    private void SpawnDefender(Vector2 gridPos)
     {
-        GameObject newDefender = Instantiate(defender, roundedPos, Quaternion.identity);
+        GameObject newDefender = Instantiate(defenderPrefab, gridPos, Quaternion.identity);
     }
 
 }

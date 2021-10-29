@@ -1828,6 +1828,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 230234520, guid: 9cb2c48135d024af4965b8df825732f8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 993912911391783836, guid: 9cb2c48135d024af4965b8df825732f8, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1874,7 +1878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993912911391783839, guid: 9cb2c48135d024af4965b8df825732f8, type: 3}
       propertyPath: m_Name
-      value: Tappable Area
+      value: Defender Placeable Area
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb2c48135d024af4965b8df825732f8, type: 3}
