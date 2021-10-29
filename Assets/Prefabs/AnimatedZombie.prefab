@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6647353296101168510}
   - component: {fileID: 6647353296101168511}
   - component: {fileID: 6647353296101168508}
-  - component: {fileID: 6647353296101168509}
+  - component: {fileID: -1205840395001940453}
   - component: {fileID: 3455896671149199586}
   - component: {fileID: 2774113829552162289}
   m_Layer: 0
@@ -105,7 +105,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6647353296101168509
+--- !u!114 &-1205840395001940453
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,10 +114,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6647353296101168482}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65bc261509572154b900c8d5e2cb6284, type: 3}
+  m_Script: {fileID: 11500000, guid: ec4d7779d7adc43eea019233eecb1671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  walkSpeed: 0.8
 --- !u!61 &3455896671149199586
 BoxCollider2D:
   m_ObjectHideFlags: 0

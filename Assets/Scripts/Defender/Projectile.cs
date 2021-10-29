@@ -5,6 +5,7 @@ using DG.Tweening;
 
 public class Projectile : MonoBehaviour
 {
+    [Header("This value is the amount of time (in seconds) it takes for the projectile to reach end of screen")]
     [SerializeField] private float speed;
 
     // Start is called before the first frame update
