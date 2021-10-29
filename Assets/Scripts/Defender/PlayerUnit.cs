@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Defender : MonoBehaviour
+public class PlayerUnit : MonoBehaviour
 {
 	public GameObject projectilePrefab;
 
@@ -14,8 +14,28 @@ public class Defender : MonoBehaviour
 	}
 	protected float currentHealth;
 
+	[SerializeField] private int baseAttack;
+	protected int attack
+	{
+		get { return baseAttack; }
+		set { baseAttack = value; }
+	}
 
-	[SerializeField] private float shootSpeed;
+	[SerializeField] private int baseRange;
+	protected int range
+	{
+		get { return baseRange; }
+		set { baseRange = value; }
+	}
+
+	[SerializeField] private float baseAttackRefresh;
+	protected float attackRefresh
+	{
+		get { return baseAttackRefresh; }
+		set { baseAttackRefresh = value; }
+	}
+
+	private float _lastAttack = 0.0f;
 
 
 	void Awake()
@@ -62,10 +82,10 @@ public class Defender : MonoBehaviour
 	}
 
 	IEnumerator repeatedShootProjectile()
-	{
+    {
 		while (this)
 		{
-			yield return new WaitForSeconds(shootSpeed);
+			yield return new WaitForSeconds(attackRefresh);
 			shootProjectile();
 		}
 	}
