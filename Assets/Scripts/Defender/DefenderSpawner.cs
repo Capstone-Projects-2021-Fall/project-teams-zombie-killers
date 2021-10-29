@@ -9,7 +9,12 @@ public class DefenderSpawner : MonoBehaviour
     [SerializeField] private float gridSize;
     [SerializeField] private float halfGridSize;
 
-    private Dictionary<string, Vector2> occupiedSquares;
+    private List<Vector2> occupiedSquares;
+
+    private void Start()
+    {
+        occupiedSquares = new List<Vector2>();
+    }
 
     private void OnMouseDown()
     {
@@ -39,7 +44,15 @@ public class DefenderSpawner : MonoBehaviour
 
     private void SpawnDefender(Vector2 gridPos)
     {
-        GameObject newDefender = Instantiate(defenderPrefab, gridPos, Quaternion.identity);
+        Vector2 check = gridPos;
+        if (!occupiedSquares.Contains(check))
+        {
+            GameObject newDefender = Instantiate(defenderPrefab, gridPos, Quaternion.identity);
+            occupiedSquares.Add(gridPos);
+        }
+        else
+        {
+            Debug.LogError("Space is already occupied!");
+        }
     }
-
 }
