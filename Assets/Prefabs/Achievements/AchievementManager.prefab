@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2285985437970019100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2285985437970019090}
+  - component: {fileID: 2285985437970019101}
+  m_Layer: 0
+  m_Name: AchievementManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2285985437970019090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2285985437970019100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2285985437970019101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2285985437970019100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01ac09380ab3f840bf210fee7245b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementUnlockedNotif: {fileID: 0}
+  achievementObj: {fileID: 1667585657034510648, guid: 85588260b7bfe2a44bea5bf4d79cb298,
+    type: 3}
+  achievements:
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Click
+    description: Click 5 times
+    ID: TUT_ACH_CLICK
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Clicky
+    description: Click 10 times
+    ID: TUT_ACH_CLICKY
+    current: 0
+    goal: 10
+    unlocked: 0
+    hidden: 1
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Gloo!
+    description: Click 1000 times
+    ID: TUT_ACH_GLOO
+    current: 0
+    goal: 1000
+    unlocked: 0
+    hidden: 0
