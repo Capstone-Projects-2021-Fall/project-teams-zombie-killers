@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8783299484083130868}
   m_Layer: 0
   m_Name: Dogecoin
-  m_TagString: Untagged
+  m_TagString: DefenderProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 18
+  damage: 2
 --- !u!61 &8783299484083130868
 BoxCollider2D:
   m_ObjectHideFlags: 0

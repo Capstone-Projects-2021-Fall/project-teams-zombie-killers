@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1660513852756181606}
   m_Layer: 0
   m_Name: Cactus
-  m_TagString: Untagged
+  m_TagString: Defender
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,4 +116,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 3237326078774042281, guid: 9181c366107b7dd4abc24a3beffe3a4c, type: 3}
+  baseStartingHealth: 10
+  baseRange: 5
   shootSpeed: 3
