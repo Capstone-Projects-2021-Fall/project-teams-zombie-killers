@@ -3,27 +3,37 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ZombieSpawner : MonoBehaviour
-{
-    public GameObject zombiePrefab;
+{ 
+    [SerializeField] float minSpawnDelay = 1f;
+    [SerializeField] float maxSpawnDelay = 5f;
+    [SerializeField] Zombie[] zombiePrefabArray;
 
-    [SerializeField] private float spawnRate; // delay between zombie spawns (in seconds)
-    [SerializeField] private int totalZombies; // could (should) replace this variable later when we introduce different types of zombies
-    [SerializeField] private int activeSpawnerIndex; // used to keep track of which row the zombie spawns in
+    bool spawn = true;
 
-    void Awake()
+    IEnumerator Start()
     {
-        activeSpawnerIndex = 0;
-        StartCoroutine(SpawnZombie());
+        while (spawn)
+        {
+            yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
+            SpawnZombie();
+        }
     }
 
-    IEnumerator SpawnZombie()
+    private void SpawnZombie()
     {
-        while (totalZombies != 0)
-        {
-            activeSpawnerIndex = Random.Range(0, 5);  // randomizes the spawn location
-            yield return new WaitForSeconds(spawnRate);
-            Instantiate(zombiePrefab, transform.GetChild(activeSpawnerIndex));
-            totalZombies--;
-        }
+        var zombieIndex = Random.Range(0, zombiePrefabArray.Length);
+        Spawn(zombiePrefabArray[zombieIndex]);
+    }
+
+    private void Spawn (Zombie myZombie)
+    {
+        Zombie newZombie = Instantiate(myZombie, transform.position, transform.rotation) as Zombie;
+        newZombie.transform.parent = transform;
+    }
+   
+
+    public void StopSpawn()
+    {
+        spawn = false;
     }
 }
