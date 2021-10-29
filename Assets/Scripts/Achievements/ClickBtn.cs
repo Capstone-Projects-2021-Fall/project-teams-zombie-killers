@@ -13,8 +13,22 @@ public class ClickBtn : MonoBehaviour
         clicks++;
         clickDisplay.text = clicks + " CLICKS";
 
-        AchievementManager.achievementManagerInstance.AddAchievementProgress("TUT_ACH_CLICK", 1);
-        AchievementManager.achievementManagerInstance.AddAchievementProgress("TUT_ACH_CLICKY", 1);
-        AchievementManager.achievementManagerInstance.AddAchievementProgress("TUT_ACH_GLOO", 1);
+        AchievementManager.achievementManagerInstance.AddAchievementProgress("ZKS_TEST", 1);
+
+    }
+
+    public void Defender()
+    {
+        AchievementManager.achievementManagerInstance.AddAchievementProgress("ZKS_DEFENDER", 1);
+    }
+
+    public void ForeHorseman()
+    {
+        AchievementManager.achievementManagerInstance.AddAchievementProgress("ZKS_FOREHORSEMAN", 1);
+    }
+
+    public void Cactus()
+    {
+        AchievementManager.achievementManagerInstance.AddAchievementProgress("ZKS_CACTUS", 1);
     }
 }
