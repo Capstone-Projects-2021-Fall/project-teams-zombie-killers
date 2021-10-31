@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9161985064895258946}
-  - component: {fileID: 491574866}
   - component: {fileID: 9161985064895258949}
   - component: {fileID: 9161985064895258948}
   - component: {fileID: 491574867}
+  - component: {fileID: 6520189039529914942}
   m_Layer: 0
   m_Name: TempDefender
   m_TagString: Defender
@@ -34,21 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &491574866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9161985064895258951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4c10eb98e872114d85fbfc8e6a11c08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 3777083148784818908, guid: 33a27b7b29dec5e44afe7f74eadd72f4, type: 3}
-  baseStartingHealth: 5
-  shootSpeed: 5
 --- !u!95 &9161985064895258949
 Animator:
   serializedVersion: 3
@@ -145,3 +130,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &6520189039529914942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9161985064895258951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69164f4e89579a4590d9187b6ed61ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 0}
+  baseStartingHealth: 5
+  shootSpeed: 5
