@@ -1682,6 +1682,7 @@ MonoBehaviour:
     e32: 0
     e33: 1
 --- !u!1 &509059326
+<<<<<<< HEAD:Assets/Scenes/Level 2.unity
 >>>>>>> parent of 19134b8 (Upadate):Assets/Scenes/NewLevel2.unity
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,6 +1720,8 @@ RectTransform:
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &412924173
+=======
+>>>>>>> parent of 19134b8 (Upadate):Assets/Scenes/NewLevel2.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2351,6 +2354,7 @@ Tilemap:
     e32: 0
     e33: 1
 <<<<<<< HEAD:Assets/Scenes/Level 2.unity
+<<<<<<< HEAD:Assets/Scenes/Level 2.unity
 --- !u!1 &725471267
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,6 +2440,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &773050140
 =======
+=======
+>>>>>>> parent of 19134b8 (Upadate):Assets/Scenes/NewLevel2.unity
 --- !u!1 &900664755
 >>>>>>> parent of 19134b8 (Upadate):Assets/Scenes/NewLevel2.unity
 GameObject:
@@ -4424,6 +4430,7 @@ Tilemap:
     e32: 0
     e33: 1
 <<<<<<< HEAD:Assets/Scenes/Level 2.unity
+<<<<<<< HEAD:Assets/Scenes/Level 2.unity
 --- !u!1 &915158475
 GameObject:
   m_ObjectHideFlags: 0
@@ -5525,6 +5532,9 @@ CanvasRenderer:
   m_GameObject: {fileID: 1383492742}
   m_CullTransparentMesh: 1
 --- !u!1 &1385097023
+=======
+--- !u!1 &937799551
+>>>>>>> parent of 19134b8 (Upadate):Assets/Scenes/NewLevel2.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5815,10 +5825,29 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< HEAD:Assets/Scenes/Level 2.unity
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -22.7232, y: -17}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1569501758
+=======
+  m_AnchoredPosition: {x: -45.700012, y: -20.634}
+  m_SizeDelta: {x: 68.490906, y: 21.2664}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1091820761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091820759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69e2c880c5f044c12a75aafd6b9f2025, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1091820762
+>>>>>>> parent of 19134b8 (Upadate):Assets/Scenes/NewLevel2.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6957,6 +6986,7 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Scenes/Level 2.unity
+<<<<<<< HEAD:Assets/Scenes/Level 2.unity
 --- !u!1001 &1973778967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7337,6 +7367,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980125447}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 19134b8 (Upadate):Assets/Scenes/NewLevel2.unity
 =======
 >>>>>>> parent of 19134b8 (Upadate):Assets/Scenes/NewLevel2.unity
 --- !u!1 &1981659934
