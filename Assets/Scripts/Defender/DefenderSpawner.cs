@@ -11,19 +11,9 @@ public class DefenderSpawner : MonoBehaviour
 
     private List<Vector2> occupiedSquares;
 
-    public static DefenderSpawner singleton;
-
     private void Start()
     {
         occupiedSquares = new List<Vector2>();
-        if (singleton == null)
-        {
-            singleton = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
 
     private void OnMouseDown()
@@ -63,14 +53,6 @@ public class DefenderSpawner : MonoBehaviour
         else
         {
             Debug.LogError("Space is already occupied!");
-        }
-    }
-
-    public void Unoccupy(Vector2 destroyedPos)
-    {
-        if (occupiedSquares.Contains(destroyedPos))
-        {
-            occupiedSquares.Remove(destroyedPos);
         }
     }
 }

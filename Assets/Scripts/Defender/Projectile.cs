@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour
     [SerializeField] private float speed;
     public float damage;
 
+    // Start is called before the first frame update
     void Awake()
     {
         ProjectileMove();
