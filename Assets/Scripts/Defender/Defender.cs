@@ -59,6 +59,7 @@ public class Defender : MonoBehaviour
 	void OnDestroy()
 	{
 		//send messager to manager
+		DefenderSpawner.singleton.Unoccupy(new Vector2(transform.position.x, transform.position.y));
 	}
 
 	IEnumerator repeatedShootProjectile()
