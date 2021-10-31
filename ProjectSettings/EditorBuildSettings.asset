@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/SettingsMenu.unity
     guid: 6abc30a033d987f4f9aa6f587b57ea8f
   - enabled: 1
-    path: Assets/Scenes/NewLevel2.unity
+    path: Assets/Scenes/TonmoyScene.unity
     guid: 659c8a8c52bf641beaed6721855dc3a6
   m_configObjects: {}
