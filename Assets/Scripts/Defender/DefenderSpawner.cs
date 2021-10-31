@@ -4,7 +4,27 @@ using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour
 {
-    public GameObject defender;
+    public GameObject defenderPrefab;
+
+    [SerializeField] private float gridSize;
+    [SerializeField] private float halfGridSize;
+
+    private List<Vector2> occupiedSquares;
+
+    public static DefenderSpawner singleton;
+
+    private void Start()
+    {
+        occupiedSquares = new List<Vector2>();
+        if (singleton == null)
+        {
+            singleton = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void OnMouseDown()
     {
@@ -13,7 +33,7 @@ public class DefenderSpawner : MonoBehaviour
 
     public void SetSelectedDefender(GameObject defenderToSelect)
     {
-        defender = defenderToSelect;
+        defenderPrefab = defenderToSelect;
     }
 
     private Vector2 GetSquareClicked()
@@ -24,17 +44,33 @@ public class DefenderSpawner : MonoBehaviour
         return gridPos;
     }
 
-    private Vector2 SnapToGrid(Vector2 rawWorldPos)
+    private Vector2 SnapToGrid(Vector2 worldPos)
     {
-        float newX = Mathf.RoundToInt(rawWorldPos.x);
-        float newY = Mathf.RoundToInt(rawWorldPos.y);
+        float newX = Mathf.Round(worldPos.x / gridSize + 0.5f) * gridSize - halfGridSize;
+        float newY = Mathf.Round(worldPos.y / gridSize + 0.5f) * gridSize - halfGridSize;
         return new Vector2(newX, newY);
 
     }
 
-    private void SpawnDefender(Vector2 roundedPos)
+    private void SpawnDefender(Vector2 gridPos)
     {
-        GameObject newDefender = Instantiate(defender, roundedPos, Quaternion.identity);
+        Vector2 check = gridPos;
+        if (!occupiedSquares.Contains(check))
+        {
+            GameObject newDefender = Instantiate(defenderPrefab, gridPos, Quaternion.identity);
+            occupiedSquares.Add(gridPos);
+        }
+        else
+        {
+            Debug.LogError("Space is already occupied!");
+        }
     }
 
+    public void Unoccupy(Vector2 destroyedPos)
+    {
+        if (occupiedSquares.Contains(destroyedPos))
+        {
+            occupiedSquares.Remove(destroyedPos);
+        }
+    }
 }

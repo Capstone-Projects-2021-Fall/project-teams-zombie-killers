@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8907154898282456938}
   m_Layer: 0
   m_Name: Forehorseman
-  m_TagString: Untagged
+  m_TagString: Defender
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,6 +117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 2704267840443860180, guid: f553fc7de413de441904291d65873866, type: 3}
+  baseStartingHealth: 7
+  baseRange: 2
   shootSpeed: 3
 --- !u!61 &-8907154898282456938
 BoxCollider2D:
