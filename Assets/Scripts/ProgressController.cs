@@ -5,8 +5,15 @@ using UnityEngine;
 public class ProgressController : MonoBehaviour
 {
 
+    [SerializeField] float waitToLoad = 4f;  
+    [SerializeField] GameObject winLabel;
     int numbOfZombies = 0;
     bool levelTimerFinished = false;
+
+    public void Start()
+    {
+        winLabel.SetActive(false);
+    }
 
    public void ZombieSpawned()
     {
@@ -18,8 +25,17 @@ public class ProgressController : MonoBehaviour
         numbOfZombies--;
         if (numbOfZombies <= 0 && levelTimerFinished)
         {
-            Debug.Log("End level now");
+            StartCoroutine(HandleWinCondition());
+         
         }
+    }
+
+    IEnumerator HandleWinCondition()
+    {
+        winLabel.SetActive(true);
+        GetComponent<AudioSource>().Play();
+        yield return new WaitForSeconds(waitToLoad);
+        FindObjectOfType<ScreenLoad>().LoadNextScene();
     }
 
     public void LevelFinished()
