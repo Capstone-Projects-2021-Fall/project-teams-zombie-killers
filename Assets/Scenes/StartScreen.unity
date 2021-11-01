@@ -232,9 +232,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 53372388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69e2c880c5f044c12a75aafd6b9f2025, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c8f557f3929bfa44ab126d419592554, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wait: 3
 --- !u!4 &53372390
 Transform:
   m_ObjectHideFlags: 0
@@ -1482,8 +1483,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 53372389}
-        m_TargetAssemblyTypeName: LevelSelection, Assembly-CSharp
-        m_MethodName: Francio
+        m_TargetAssemblyTypeName: ScreenLoad, Assembly-CSharp
+        m_MethodName: LoadNextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
