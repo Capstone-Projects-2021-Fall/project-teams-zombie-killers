@@ -4,6 +4,15 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
+public enum AchievementType
+{
+    ZKS_TEST,
+    ZKS_DEFENDER,
+    ZKS_FOREHORSEMAN,
+    ZKS_CACTUS
+
+}
+
 public class AchievementManager : MonoBehaviour
 {
     public static AchievementManager achievementManagerInstance;
@@ -14,7 +23,7 @@ public class AchievementManager : MonoBehaviour
         public Sprite icon;
         public string display;
         public string description;
-        public string ID;
+        public AchievementType ID;
         public int current;
         public int goal;
         public bool unlocked;
@@ -35,9 +44,10 @@ public class AchievementManager : MonoBehaviour
     void Start()
     {
         LoadAchievementData();
+        achievementUnlockedNotif = GameObject.Find("AchievementUnlocked");
     }
 
-    public void AddAchievementProgress(string ID, int value)
+    public void AddAchievementProgress(AchievementType ID, int value)
     {
         Achievement achievement = achievements.FirstOrDefault(x => x.ID == ID);
 
@@ -58,7 +68,7 @@ public class AchievementManager : MonoBehaviour
 
     public void ShowUnlockedTic(Achievement achievement)
     {
-        achievementUnlockedNotif.transform.gameObject.SetActive(true);
+        achievementUnlockedNotif.transform.Find("UI").gameObject.SetActive(true);
         GameObject achUnlUIHolder = achievementUnlockedNotif.transform.Find("UI").gameObject;
 
         Image icon = achUnlUIHolder.transform.Find("AchievementIcon").GetComponent<Image>();
@@ -126,7 +136,7 @@ public class AchievementManager : MonoBehaviour
         }
     }
 
-    public void SaveAchievementData(string achID)
+    public void SaveAchievementData(AchievementType achID)
     {
         Achievement achievement = achievements.FirstOrDefault(x => x.ID == achID);
 
@@ -134,12 +144,12 @@ public class AchievementManager : MonoBehaviour
         SetAchievementPref("unlocked", achievement.ID, (achievement.unlocked == true) ? 1 : 0);
     }
 
-    public int GetAchievementPref(string type, string achID)
+    public int GetAchievementPref(string type, AchievementType achID)
     {
         return PlayerPrefs.GetInt(achID + "_" + type.ToUpper());
     }
 
-    public void SetAchievementPref(string type, string achID, int value)
+    public void SetAchievementPref(string type, AchievementType achID, int value)
     {
         PlayerPrefs.SetInt(achID + "_" + type.ToUpper(), value);
     }

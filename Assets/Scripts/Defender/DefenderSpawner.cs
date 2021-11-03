@@ -59,6 +59,23 @@ public class DefenderSpawner : MonoBehaviour
         {
             GameObject newDefender = Instantiate(defenderPrefab, gridPos, Quaternion.identity);
             occupiedSquares.Add(gridPos);
+
+            AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_DEFENDER, 1);
+
+            if (defenderPrefab.name.Contains("Cactus"))
+            {
+
+                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_CACTUS, 1);
+
+            }
+
+            else if (defenderPrefab.name.Contains("Forehorseman"))
+            {
+
+                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_FOREHORSEMAN, 1);
+
+            }
+
         }
         else
         {

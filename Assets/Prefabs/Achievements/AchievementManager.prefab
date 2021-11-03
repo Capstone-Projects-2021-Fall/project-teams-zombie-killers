@@ -44,30 +44,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   achievementUnlockedNotif: {fileID: 0}
-  achievementObj: {fileID: 1667585657034510648, guid: 85588260b7bfe2a44bea5bf4d79cb298,
-    type: 3}
+  achievementObj: {fileID: 1667585657034510648, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
   achievements:
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-    display: Click
-    description: Click 5 times
-    ID: TUT_ACH_CLICK
+    display: Test
+    description: Click 150 times
+    ID: ZKS_TEST
     current: 0
-    goal: 5
+    goal: 150
     unlocked: 0
     hidden: 0
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-    display: Clicky
-    description: Click 10 times
-    ID: TUT_ACH_CLICKY
+    display: Defender
+    description: Place 1 Defender
+    ID: ZKS_DEFENDER
     current: 0
-    goal: 10
+    goal: 1
     unlocked: 0
-    hidden: 1
+    hidden: 0
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-    display: Gloo!
-    description: Click 1000 times
-    ID: TUT_ACH_GLOO
+    display: ForeHorseman
+    description: Place 2 ForeHorseman
+    ID: ZKS_FOREHORSEMAN
     current: 0
-    goal: 1000
+    goal: 2
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Cactus
+    description: Place 2 Cactus
+    ID: ZKS_CACTUS
+    current: 0
+    goal: 2
     unlocked: 0
     hidden: 0
