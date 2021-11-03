@@ -7,6 +7,10 @@ public class ClickBtn : MonoBehaviour
 {
     public Text clickDisplay;
     public int clicks;
+    public int defenders;
+    public int forehorseman;
+    public int cactus;
+
 
     public void Click()
     {
@@ -17,18 +21,28 @@ public class ClickBtn : MonoBehaviour
 
     }
 
-    public void Defender()
+    public void Defenders()
     {
+
+        defenders++;
+
         AchievementManager.achievementManagerInstance.AddAchievementProgress("ZKS_DEFENDER", 1);
     }
 
     public void ForeHorseman()
     {
+
+
+        forehorseman++;
+
         AchievementManager.achievementManagerInstance.AddAchievementProgress("ZKS_FOREHORSEMAN", 1);
     }
 
     public void Cactus()
     {
+
+        cactus++;
+
         AchievementManager.achievementManagerInstance.AddAchievementProgress("ZKS_CACTUS", 1);
     }
 }

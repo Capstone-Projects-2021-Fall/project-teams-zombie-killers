@@ -35,6 +35,7 @@ public class AchievementManager : MonoBehaviour
     void Start()
     {
         LoadAchievementData();
+        achievementUnlockedNotif = GameObject.Find("AchievementUnlocked");
     }
 
     public void AddAchievementProgress(string ID, int value)
@@ -58,7 +59,7 @@ public class AchievementManager : MonoBehaviour
 
     public void ShowUnlockedTic(Achievement achievement)
     {
-        achievementUnlockedNotif.transform.gameObject.SetActive(true);
+        achievementUnlockedNotif.transform.Find("UI").gameObject.SetActive(true);
         GameObject achUnlUIHolder = achievementUnlockedNotif.transform.Find("UI").gameObject;
 
         Image icon = achUnlUIHolder.transform.Find("AchievementIcon").GetComponent<Image>();
