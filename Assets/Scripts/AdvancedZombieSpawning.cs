@@ -26,17 +26,49 @@ public class AdvancedZombieSpawning : MonoBehaviour
     {
         
         SpawnInfo[] Level1 = {
-            new SpawnInfo(zombiePrefabArray[0], 0.0f, transform.GetChild(0)),
-            new SpawnInfo(zombiePrefabArray[0], 1.0f, transform.GetChild(1)),
-            new SpawnInfo(zombiePrefabArray[0], 2.0f, transform.GetChild(2)),
-            new SpawnInfo(zombiePrefabArray[0], 2.0f, transform.GetChild(1)),
-            new SpawnInfo(zombiePrefabArray[0], 4.0f, transform.GetChild(1)),
-            new SpawnInfo(zombiePrefabArray[0], 4.0f, transform.GetChild(4)),
-            new SpawnInfo(zombiePrefabArray[0], 8.0f, transform.GetChild(0)),
-            new SpawnInfo(zombiePrefabArray[0], 8.0f, transform.GetChild(1)),
-            new SpawnInfo(zombiePrefabArray[0], 8.0f, transform.GetChild(3)),
-            new SpawnInfo(zombiePrefabArray[0], 8.5f, transform.GetChild(1)),
-            new SpawnInfo(zombiePrefabArray[0], 8.5f, transform.GetChild(3))
+
+            new SpawnInfo(zombiePrefabArray[0], 12.0f, transform.GetChild(0)),
+            new SpawnInfo(zombiePrefabArray[0], 20.0f, transform.GetChild(3)),
+            new SpawnInfo(zombiePrefabArray[0], 24.0f, transform.GetChild(1)),
+            new SpawnInfo(zombiePrefabArray[0], 32.0f, transform.GetChild(2)),
+            new SpawnInfo(zombiePrefabArray[0], 32.0f, transform.GetChild(1)),
+
+            new SpawnInfo(zombiePrefabArray[0], 45.0f, transform.GetChild(3)),
+            new SpawnInfo(zombiePrefabArray[0], 45.0f, transform.GetChild(4)),
+
+            new SpawnInfo(zombiePrefabArray[0], 52.0f, transform.GetChild(0)),
+            new SpawnInfo(zombiePrefabArray[0], 52.0f, transform.GetChild(2)),
+            new SpawnInfo(zombiePrefabArray[0], 53.5f, transform.GetChild(1)),
+            new SpawnInfo(zombiePrefabArray[0], 53.5f, transform.GetChild(4)),
+
+            new SpawnInfo(zombiePrefabArray[0], 60.0f, transform.GetChild(0)),
+            new SpawnInfo(zombiePrefabArray[0], 60.0f, transform.GetChild(1)),
+            new SpawnInfo(zombiePrefabArray[0], 60.0f, transform.GetChild(2)),
+            new SpawnInfo(zombiePrefabArray[0], 63.0f, transform.GetChild(1)),
+            new SpawnInfo(zombiePrefabArray[0], 63.0f, transform.GetChild(3)),
+
+            new SpawnInfo(zombiePrefabArray[0], 70.0f, transform.GetChild(0)),
+            new SpawnInfo(zombiePrefabArray[0], 70.0f, transform.GetChild(2)),
+            new SpawnInfo(zombiePrefabArray[0], 70.0f, transform.GetChild(4)),
+            new SpawnInfo(zombiePrefabArray[0], 73.0f, transform.GetChild(1)),
+            new SpawnInfo(zombiePrefabArray[0], 73.0f, transform.GetChild(3)),
+            new SpawnInfo(zombiePrefabArray[0], 73.0f, transform.GetChild(4)),
+
+            new SpawnInfo(zombiePrefabArray[0], 82.0f, transform.GetChild(0)),
+            new SpawnInfo(zombiePrefabArray[0], 82.0f, transform.GetChild(1)),
+            new SpawnInfo(zombiePrefabArray[0], 82.0f, transform.GetChild(3)),
+            new SpawnInfo(zombiePrefabArray[0], 82.0f, transform.GetChild(4)),
+            new SpawnInfo(zombiePrefabArray[0], 83.5f, transform.GetChild(0)),
+            new SpawnInfo(zombiePrefabArray[0], 83.5f, transform.GetChild(1)),
+            new SpawnInfo(zombiePrefabArray[0], 83.5f, transform.GetChild(2)),
+            new SpawnInfo(zombiePrefabArray[0], 83.5f, transform.GetChild(3)),
+            new SpawnInfo(zombiePrefabArray[0], 83.5f, transform.GetChild(4)),
+            new SpawnInfo(zombiePrefabArray[0], 85.0f, transform.GetChild(0)),
+            new SpawnInfo(zombiePrefabArray[0], 85.0f, transform.GetChild(1)),
+            new SpawnInfo(zombiePrefabArray[0], 85.0f, transform.GetChild(2)),
+            new SpawnInfo(zombiePrefabArray[0], 85.0f, transform.GetChild(3)),
+            new SpawnInfo(zombiePrefabArray[0], 85.0f, transform.GetChild(4))
+
         };
 
         if(level == 1)
