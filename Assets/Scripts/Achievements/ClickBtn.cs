@@ -17,7 +17,7 @@ public class ClickBtn : MonoBehaviour
         clicks++;
         clickDisplay.text = clicks + " CLICKS";
 
-        AchievementManager.achievementManagerInstance.AddAchievementProgress("ZKS_TEST", 1);
+        AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_TEST, 1);
 
     }
 
@@ -26,7 +26,7 @@ public class ClickBtn : MonoBehaviour
 
         defenders++;
 
-        AchievementManager.achievementManagerInstance.AddAchievementProgress("ZKS_DEFENDER", 1);
+        AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_DEFENDER, 1);
     }
 
     public void ForeHorseman()
@@ -35,7 +35,7 @@ public class ClickBtn : MonoBehaviour
 
         forehorseman++;
 
-        AchievementManager.achievementManagerInstance.AddAchievementProgress("ZKS_FOREHORSEMAN", 1);
+        AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_FOREHORSEMAN, 1);
     }
 
     public void Cactus()
@@ -43,6 +43,6 @@ public class ClickBtn : MonoBehaviour
 
         cactus++;
 
-        AchievementManager.achievementManagerInstance.AddAchievementProgress("ZKS_CACTUS", 1);
+        AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_CACTUS, 1);
     }
 }
