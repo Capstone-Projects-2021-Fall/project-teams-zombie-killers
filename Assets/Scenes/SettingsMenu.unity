@@ -4722,7 +4722,7 @@ MonoBehaviour:
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     display: Test
     description: Click 150 times
-    ID: ZKS_TEST
+    ID: 0
     current: 0
     goal: 150
     unlocked: 0
@@ -4730,7 +4730,7 @@ MonoBehaviour:
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     display: Defender
     description: Place 1 Defender
-    ID: ZKS_DEFENDER
+    ID: 1
     current: 0
     goal: 1
     unlocked: 0
@@ -4738,7 +4738,7 @@ MonoBehaviour:
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     display: ForeHorseman
     description: Place 2 ForeHorseman
-    ID: ZKS_FOREHORSEMAN
+    ID: 2
     current: 0
     goal: 2
     unlocked: 0
@@ -4746,7 +4746,7 @@ MonoBehaviour:
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     display: Cactus
     description: Place 2 Cactus
-    ID: ZKS_CACTUS
+    ID: 3
     current: 0
     goal: 2
     unlocked: 0
