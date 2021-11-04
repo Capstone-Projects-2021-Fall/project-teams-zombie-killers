@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4b7496b-e5cd-4aa9-a62b-b1d817ed8ade" name="Changes" comment="" />
+    <list default="true" id="f4b7496b-e5cd-4aa9-a62b-b1d817ed8ade" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Defender/PlayerUnit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Defender/PlayerUnit.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimatedZombie.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimatedZombie.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AnimatedZombie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AnimatedZombie.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Cactus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Cactus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Forehorseman.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Forehorseman.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Defenders/TempDefender.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Defenders/TempDefender.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Cheesesteak.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Cheesesteak.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Cucumber.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Cucumber.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Dogecoin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Dogecoin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Defender/Defender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Defender/Defender.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Defender/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Defender/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Zombies/Zombie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Zombies/Zombie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

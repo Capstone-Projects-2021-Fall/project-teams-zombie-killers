@@ -11,7 +11,7 @@
     <key>CFBundleIconFile</key>
     <string>PlayerIcon.icns</string>
     <key>CFBundleIdentifier</key>
-    <string>com.DefaultCompany.ZombieKillers</string>
+    <string>com.TempleUniversity.ZombieKillers</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -19,7 +19,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.0</string>
+    <string>0.0.1</string>
     <key>CFBundleSupportedPlatforms</key>
     <array>
       <string>MacOSX</string>
