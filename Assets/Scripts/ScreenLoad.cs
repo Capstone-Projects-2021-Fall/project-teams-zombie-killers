@@ -26,6 +26,18 @@ public class ScreenLoad : MonoBehaviour
         LoadNextScene();
     }
 
+    public void RestartScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(currentSceneIndex);
+    }
+
+    public void MainMenuScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("StartScreen");
+    }
+
     public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);

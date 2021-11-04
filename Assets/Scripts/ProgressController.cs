@@ -7,12 +7,14 @@ public class ProgressController : MonoBehaviour
 
     [SerializeField] float waitToLoad = 4f;  
     [SerializeField] GameObject winLabel;
+    [SerializeField] GameObject loseLabel;
     int numbOfZombies = 0;
     bool levelTimerFinished = false;
 
     public void Start()
     {
         winLabel.SetActive(false);
+        loseLabel.SetActive(false);
     }
 
    public void ZombieSpawned()
@@ -36,6 +38,12 @@ public class ProgressController : MonoBehaviour
         GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(waitToLoad);
         FindObjectOfType<ScreenLoad>().LoadNextScene();
+    }
+
+    public void HandleLoseCondition()
+    {
+        loseLabel.SetActive(true);
+        Time.timeScale = 0;
     }
 
     public void LevelFinished()
