@@ -3,37 +3,52 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ZombieSpawner : MonoBehaviour
-{ 
+{
+
     [SerializeField] float minSpawnDelay = 1f;
     [SerializeField] float maxSpawnDelay = 5f;
     [SerializeField] Zombie[] zombiePrefabArray;
 
-    bool spawn = true;
+    private bool isPaused = false;
+    private bool isFirstWave = true;
 
-    IEnumerator Start()
+    private void Start()
     {
-        while (spawn)
+        StartCoroutine(StartSpawn());
+    }
+
+    IEnumerator StartSpawn()
+    {
+        while (true)
         {
-            yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
+            while (isPaused)
+            {
+                yield return null;
+            }
+            if (isFirstWave)
+            {
+                yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
+                isFirstWave = false;
+            }
             SpawnZombie();
+            yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
         }
     }
 
     private void SpawnZombie()
     {
         var zombieIndex = Random.Range(0, zombiePrefabArray.Length);
-        Spawn(zombiePrefabArray[zombieIndex]);
-    }
-
-    private void Spawn (Zombie myZombie)
-    {
-        Zombie newZombie = Instantiate(myZombie, transform.position, transform.rotation) as Zombie;
+        Zombie newZombie = Instantiate(zombiePrefabArray[zombieIndex], transform.position, transform.rotation) as Zombie;
         newZombie.transform.parent = transform;
     }
-   
 
-    public void StopSpawn()
+    public void PauseSpawn()
     {
-        spawn = false;
+        isPaused = true;
+    }
+
+    public void ResumeSpawn()
+    {
+        isPaused = false;
     }
 }

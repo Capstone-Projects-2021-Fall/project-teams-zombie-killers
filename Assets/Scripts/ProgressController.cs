@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ProgressController : MonoBehaviour
 {
+    public static ProgressController singleton;
 
     [SerializeField] float waitToLoad = 4f;  
     [SerializeField] GameObject winLabel;
@@ -11,8 +12,16 @@ public class ProgressController : MonoBehaviour
     int numbOfZombies = 0;
     bool levelTimerFinished = false;
 
-    public void Start()
+    private void Start()
     {
+        if (singleton != null && singleton != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            singleton = this;
+        }
         winLabel.SetActive(false);
         loseLabel.SetActive(false);
     }
@@ -57,7 +66,7 @@ public class ProgressController : MonoBehaviour
         ZombieSpawner[] spawnerArray = FindObjectsOfType<ZombieSpawner>();
         foreach (ZombieSpawner spawner in spawnerArray)
         {
-            spawner.StopSpawn();
+            spawner.PauseSpawn();
         }
     }
 }
