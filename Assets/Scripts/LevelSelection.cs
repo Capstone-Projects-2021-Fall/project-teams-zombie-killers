@@ -8,7 +8,7 @@ public class LevelSelection : MonoBehaviour
 
     public void Level2()
     {
-        SceneManager.LoadScene("NewLevel2");
+        SceneManager.LoadScene("Level 2");
     }
 
     public void Francio()
@@ -28,11 +28,16 @@ public class LevelSelection : MonoBehaviour
 
     public void NameSelect()
     {
-        SceneManager.LoadScene("StartScreen");
+        SceneManager.LoadScene("StartScreen2");
     }
 
     public void AchievementSelect()
     {
         SceneManager.LoadScene("Achievement");
+    }
+
+    public void LevelSelectionScreen()
+    {
+        SceneManager.LoadScene("LevelSelection");
     }
 }
