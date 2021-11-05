@@ -7,6 +7,11 @@ public class Defender : MonoBehaviour
 	public GameObject projectilePrefab;
 	[SerializeField] int starCost = 100;
 
+	public void addStars(int amount)
+    {
+		FindObjectOfType<StarDisplay>().AddStars(amount);
+    }
+
 	[SerializeField] private float baseStartingHealth;
 	protected float startingHealth
 	{
