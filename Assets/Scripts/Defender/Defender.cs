@@ -13,29 +13,12 @@ public class Defender : MonoBehaviour
 		set { baseStartingHealth = value; }
 	}
 	protected float currentHealth;
-
-
 	[SerializeField] private float shootSpeed;
-
 
 	void Awake()
 	{
 		StartCoroutine(repeatedShootProjectile());
 	}
-
-	// Start is called before the first frame update 
-	void Start()
-	{
-
-	}
-
-
-	// Update is called once per frame
-	void Update()
-	{
-
-	}
-
 
 	//TODO Needs to be tested
 	public void takeDamage(float damage)
@@ -43,18 +26,9 @@ public class Defender : MonoBehaviour
 		this.currentHealth = currentHealth - damage;
 		if (this.currentHealth <= 0)
 		{
-			this.destroy();
+			Destroy(gameObject);
 		}
 	}
-
-
-	//TODO Needs to be tested
-	public void destroy()
-	{
-		Destroy(gameObject);
-
-	}
-
 
 	void OnDestroy()
 	{

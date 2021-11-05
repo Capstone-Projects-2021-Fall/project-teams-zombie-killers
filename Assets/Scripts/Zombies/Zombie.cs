@@ -19,18 +19,18 @@ public class Zombie : MonoBehaviour
 
     private void Awake()
     {
-        FindObjectOfType<ProgressController>().ZombieSpawned();
-    }
-
-    private void OnDestroy()
-    {
-        FindObjectOfType<ProgressController>().ZombieKilled();
+        ProgressController.singleton.ZombieSpawned();
     }
 
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = startingHealth;
+    }
+
+    private void OnDestroy()
+    {
+        ProgressController.singleton.ZombieKilled();
     }
 
     // Update is called once per frame
@@ -40,6 +40,7 @@ public class Zombie : MonoBehaviour
             transform.Translate(Vector2.left * walkSpeed * Time.deltaTime);
     }
 
+    #region Box Collider Functions
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("DefenderProjectile"))
@@ -66,6 +67,7 @@ public class Zombie : MonoBehaviour
             isAttacking = false;
         }
     }
+    #endregion
 
     public void takeDamage(float damage)
     {
