@@ -69,6 +69,13 @@ public class DefenderSpawner : MonoBehaviour
 
             }
 
+            else if (defenderPrefab.name.Contains("Trophy"))
+            {
+
+                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_TROPHY, 1);
+
+            }
+
             else if (defenderPrefab.name.Contains("Forehorseman"))
             {
 

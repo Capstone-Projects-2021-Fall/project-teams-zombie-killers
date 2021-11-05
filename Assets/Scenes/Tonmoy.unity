@@ -3234,6 +3234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1111367057}
   - component: {fileID: 1111367058}
+  - component: {fileID: 1111367059}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -3276,6 +3277,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1111367059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111367056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69164f4e89579a4590d9187b6ed61ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 0}
+  starCost: 100
+  baseStartingHealth: 0
+  shootSpeed: 0
 --- !u!1 &1141773073
 GameObject:
   m_ObjectHideFlags: 0
@@ -4268,7 +4285,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00000071525574, y: -0.083817214}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4279,7 +4296,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.38, y: 0.6}
+  m_Size: {x: 1.0984321, y: 1.390275}
   m_EdgeRadius: 0
 --- !u!212 &1242121390
 SpriteRenderer:

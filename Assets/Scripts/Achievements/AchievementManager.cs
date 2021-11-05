@@ -9,8 +9,8 @@ public enum AchievementType
     ZKS_TEST,
     ZKS_DEFENDER,
     ZKS_FOREHORSEMAN,
+    ZKS_TROPHY,
     ZKS_CACTUS
-
 }
 
 public class AchievementManager : MonoBehaviour
