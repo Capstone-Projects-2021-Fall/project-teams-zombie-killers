@@ -1482,9 +1482,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 53372389}
-        m_TargetAssemblyTypeName: ScreenLoad, Assembly-CSharp
-        m_MethodName: LoadNextScene
+      - m_Target: {fileID: 349276133}
+        m_TargetAssemblyTypeName: LevelSelection, Assembly-CSharp
+        m_MethodName: LevelSelectionScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
