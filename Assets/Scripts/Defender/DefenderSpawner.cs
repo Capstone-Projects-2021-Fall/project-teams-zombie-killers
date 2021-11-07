@@ -5,6 +5,7 @@ using UnityEngine;
 public class DefenderSpawner : MonoBehaviour
 {
     public GameObject defenderPrefab;
+    Defender defender;
 
     [SerializeField] private float gridSize;
     [SerializeField] private float halfGridSize;
@@ -29,11 +30,30 @@ public class DefenderSpawner : MonoBehaviour
     private void OnMouseDown()
     {
         SpawnDefender(GetSquareClicked());
+        AttemptToPlaceDefenderAt(GetSquareClicked());
+
+
     }
 
     public void SetSelectedDefender(GameObject defenderToSelect)
     {
         defenderPrefab = defenderToSelect;
+    }
+
+    public void SetSelectedDefender1(Defender defenderToSelect)
+    {
+        defender = defenderToSelect;
+    }
+
+    private void AttemptToPlaceDefenderAt(Vector2 gridpos)
+    {
+        var StarDisplay = FindObjectOfType<StarDisplay>();
+        int defenderCost = defender.GetStarCost();
+        if (StarDisplay.HaveEnoughStars(defenderCost))
+        {
+            SpawnDefender(gridpos);
+            StarDisplay.SpendStars(defenderCost);
+        }
     }
 
     private Vector2 GetSquareClicked()
@@ -66,6 +86,13 @@ public class DefenderSpawner : MonoBehaviour
             {
 
                 AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_CACTUS, 1);
+
+            }
+
+            else if (defenderPrefab.name.Contains("Trophy"))
+            {
+
+                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_TROPHY, 1);
 
             }
 

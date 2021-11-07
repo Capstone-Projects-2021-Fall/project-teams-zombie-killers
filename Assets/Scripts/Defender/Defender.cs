@@ -5,6 +5,17 @@ using UnityEngine;
 public class Defender : MonoBehaviour
 {
 	public GameObject projectilePrefab;
+	[SerializeField] int starCost = 100;
+
+	public void addStars(int amount)
+    {
+		FindObjectOfType<StarDisplay>().AddStars(amount);
+    }
+
+	public int GetStarCost()
+    {
+		return starCost;
+    }
 
 	[SerializeField] private float baseStartingHealth;
 	protected float startingHealth
