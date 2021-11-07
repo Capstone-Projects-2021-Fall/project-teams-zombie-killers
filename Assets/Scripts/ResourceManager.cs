@@ -12,6 +12,7 @@ public class ResourceManager : MonoBehaviour
     public static ResourceManager singleton;
     private void Awake()
     {
+        Debug.Log("HI I'm " + gameObject.name);
         if (singleton == null)
         {
             singleton = this;

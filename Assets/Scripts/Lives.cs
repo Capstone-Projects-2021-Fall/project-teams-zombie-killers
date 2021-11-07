@@ -2,23 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Lives : MonoBehaviour
 {
 
     [SerializeField] int lives = 3;
     [SerializeField] int damage = 1;
-    Text livesText;
+    private TextMeshProUGUI livesText;
 
     void Start()
     {
-        livesText = GetComponent<Text>();
+        livesText = GetComponent<TextMeshProUGUI>();
         UpdateDisplay();
     }
 
     private void UpdateDisplay()
     {
-        livesText.text = lives.ToString();
+        livesText.text = "Lives: " + lives.ToString();
     }
 
     public void TakeLife()
