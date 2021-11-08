@@ -178,11 +178,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 80283804525068481, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 23
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 80283804525068481, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 81.2
+      value: 91
       objectReference: {fileID: 0}
     - target: {fileID: 3234896249921897357, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_Name
@@ -198,7 +198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3635743810967053884, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 35
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 3646731447456718955, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_SizeDelta.x
@@ -210,11 +210,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3646731447456718955, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 18.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3646731447456718955, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 62.7
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 4459210518168180664, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_FontData.m_MaxSize
@@ -226,7 +226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4459210518168180664, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 20
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6490793973867648012, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_Controller
@@ -234,35 +234,35 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 8db155bf743374549a73e7506ea85a5c, type: 2}
     - target: {fileID: 6581836607794926779, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 36.2378
+      value: 67.6225
       objectReference: {fileID: 0}
     - target: {fileID: 6581836607794926779, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 32.248
+      value: 59.9136
       objectReference: {fileID: 0}
     - target: {fileID: 6581836607794926779, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -89
+      value: -182
       objectReference: {fileID: 0}
     - target: {fileID: 6581836607794926779, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 61.112
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 7146172104237566625, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 232.9671
+      value: 345.5372
       objectReference: {fileID: 0}
     - target: {fileID: 7146172104237566625, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 37.4073
+      value: 50.866
       objectReference: {fileID: 0}
     - target: {fileID: 7146172104237566625, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 11.2363
+      value: -12.3343
       objectReference: {fileID: 0}
     - target: {fileID: 7146172104237566625, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 52.7301
+      value: 46.867
       objectReference: {fileID: 0}
     - target: {fileID: 7355252213345814129, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_FontData.m_MaxSize
@@ -270,7 +270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7355252213345814129, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 18
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7837275707004464098, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_CullTransparentMesh
@@ -281,20 +281,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8456625598040524392, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 29.0938
-      objectReference: {fileID: 0}
-    - target: {fileID: 8456625598040524392, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 41.8802
-      objectReference: {fileID: 0}
-    - target: {fileID: 8456625598040524392, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 48
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8456625598040524392, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -384
+      value: -403
       objectReference: {fileID: 0}
     - target: {fileID: 8568987817197233870, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_SizeDelta.x
@@ -306,11 +298,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568987817197233870, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 17.6
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8568987817197233870, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 43.1
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 8706244149519510015, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
       propertyPath: m_Pivot.x
@@ -5126,7 +5118,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.76, y: 1.2}
-    newSize: {x: 0.76, y: 1.2}
+    newSize: {x: 0.38, y: 0.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -5179,7 +5171,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.76, y: 1.2}
+  m_Size: {x: 0.38, y: 0.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
