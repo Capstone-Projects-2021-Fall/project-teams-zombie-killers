@@ -7,16 +7,6 @@ public class Defender : MonoBehaviour
 	public GameObject projectilePrefab;
 	[SerializeField] int starCost = 100;
 
-	public void addStars(int amount)
-    {
-		FindObjectOfType<StarDisplay>().AddStars(amount);
-    }
-
-	public int GetStarCost()
-    {
-		return starCost;
-    }
-
 	[SerializeField] private float baseStartingHealth;
 	protected float startingHealth
 	{
@@ -47,7 +37,8 @@ public class Defender : MonoBehaviour
 		DefenderSpawner.singleton.Unoccupy(new Vector2(transform.position.x, transform.position.y));
 	}
 
-	IEnumerator repeatedShootProjectile()
+    #region Shoot Functions
+    IEnumerator repeatedShootProjectile()
 	{
 		while (this)
 		{
@@ -60,4 +51,17 @@ public class Defender : MonoBehaviour
 	{
 		Instantiate(projectilePrefab, transform);
 	}
+    #endregion
+
+    #region Resource/Star Functions
+    public void addStars(int amount)
+	{
+		FindObjectOfType<StarDisplay>().AddStars(amount);
+	}
+
+	public int GetStarCost()
+	{
+		return starCost;
+	}
+    #endregion
 }

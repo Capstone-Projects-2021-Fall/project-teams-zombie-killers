@@ -769,7 +769,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2010095050}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &35361517
 MonoBehaviour:
@@ -1643,7 +1643,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -35.45}
+  m_AnchoredPosition: {x: 0, y: -35.44995}
   m_SizeDelta: {x: 800, y: 70.9002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &395562101
@@ -1684,84 +1684,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395562099}
   m_CullTransparentMesh: 1
---- !u!1 &607083679
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 607083681}
-  - component: {fileID: 607083680}
-  m_Layer: 0
-  m_Name: Achievement Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &607083680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 607083679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b01ac09380ab3f840bf210fee7245b91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  achievementUnlockedNotif: {fileID: 2046683678}
-  achievementObj: {fileID: 1667585657034510648, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
-  achievements:
-  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-    display: Test
-    description: Click 10 times
-    ID: 0
-    current: 0
-    goal: 10
-    unlocked: 0
-    hidden: 0
-  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-    display: Defender
-    description: Place 1 Defender
-    ID: 0
-    current: 0
-    goal: 1
-    unlocked: 0
-    hidden: 0
-  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-    display: ForeHorseman
-    description: Place 2 ForeHorseman
-    ID: 0
-    current: 0
-    goal: 2
-    unlocked: 0
-    hidden: 0
-  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-    display: Cactus
-    description: Place 2 Cactus
-    ID: 0
-    current: 0
-    goal: 2
-    unlocked: 0
-    hidden: 0
---- !u!4 &607083681
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 607083679}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2010095050}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &624693107
 GameObject:
   m_ObjectHideFlags: 0
@@ -5592,6 +5514,76 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1170498784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1170498785}
+  - component: {fileID: 1170498786}
+  m_Layer: 0
+  m_Name: AchievementManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1170498785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170498784}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2010095050}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1170498786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170498784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01ac09380ab3f840bf210fee7245b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementUnlockedNotif: {fileID: 0}
+  achievementObj: {fileID: 1667585657034510648, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
+  achievements:
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Defender
+    description: Place 1 Defender
+    ID: 1
+    current: 0
+    goal: 2
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: ForeHorseman
+    description: Place 2 ForeHorseman
+    ID: 2
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Cactus
+    description: Place 2 Cactus
+    ID: 3
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
 --- !u!1 &1225162848
 GameObject:
   m_ObjectHideFlags: 0
@@ -8470,8 +8462,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 607083681}
   - {fileID: 35361516}
+  - {fileID: 1170498785}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8926,11 +8918,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
---- !u!1 &2046683678 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3234896249921897357, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
-  m_PrefabInstance: {fileID: 2046683677}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2046683679 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8706244149519510015, guid: 05b46d83998708e47ba8f0db8bf007de, type: 3}
@@ -9031,7 +9018,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 607083680}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AchievementManager, Assembly-CSharp
         m_MethodName: PopulateAchievementList
         m_Mode: 2

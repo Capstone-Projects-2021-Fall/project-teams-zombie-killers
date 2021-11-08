@@ -2,22 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class StarDisplay : MonoBehaviour
 {
 
     [SerializeField] int stars = 100;
-    Text starText;
+    TextMeshProUGUI starText;
 
     void Start()
     {
-        starText = GetComponent<Text>();
+        starText = GetComponent<TextMeshProUGUI>();
         UpdateDisplay();
     }
 
     private void UpdateDisplay()
     {
-        starText.text = stars.ToString();
+        starText.text = "Resources: " + stars.ToString();
     }
 
     public bool HaveEnoughStars(int amount)
