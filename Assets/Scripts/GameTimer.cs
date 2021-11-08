@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GameTimer : MonoBehaviour
 {
     [Header("Level timer in seconds")]
-    [SerializeField] float levelTime = 70;
+    [SerializeField] float levelTime = 90;
     bool triggeredLevelFinished = false;
     private Slider slider;
 
