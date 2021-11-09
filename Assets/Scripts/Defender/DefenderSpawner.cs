@@ -42,7 +42,7 @@ public class DefenderSpawner : MonoBehaviour
     {
         var StarDisplay = FindObjectOfType<StarDisplay>();
         var defenderCost = defenderPrefab.GetComponent<Defender>().GetStarCost();
-        if (StarDisplay.HaveEnoughStars(defenderCost))
+        if (StarDisplay.HaveEnoughStars(defenderCost) && !gridOccupied(gridPos))
         {
             SpawnDefender(gridPos);
             StarDisplay.SpendStars(defenderCost);
@@ -65,11 +65,16 @@ public class DefenderSpawner : MonoBehaviour
 
     }
 
+    private bool gridOccupied(Vector2 check)
+    {
+        return occupiedSquares.Contains(check);
+    }
+
     private void SpawnDefender(Vector2 gridPos)
     {
 
         Vector2 check = gridPos;
-        if (!occupiedSquares.Contains(check))
+        if (!gridOccupied(check))
         {
             GameObject newDefender = Instantiate(defenderPrefab, gridPos, Quaternion.identity);
             occupiedSquares.Add(gridPos);
