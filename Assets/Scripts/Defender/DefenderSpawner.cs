@@ -5,7 +5,6 @@ using UnityEngine;
 public class DefenderSpawner : MonoBehaviour
 {
     public GameObject defenderPrefab;
-    Defender defender;
 
     [SerializeField] private float gridSize;
     [SerializeField] private float halfGridSize;
@@ -29,8 +28,7 @@ public class DefenderSpawner : MonoBehaviour
 
     private void OnMouseDown()
     {
-        SpawnDefender(GetSquareClicked());
-        AttemptToPlaceDefenderAt(GetSquareClicked());
+        AttemptToPlaceDefender(GetSquareClicked());
 
 
     }
@@ -40,18 +38,13 @@ public class DefenderSpawner : MonoBehaviour
         defenderPrefab = defenderToSelect;
     }
 
-    public void SetSelectedDefender1(Defender defenderToSelect)
-    {
-        defender = defenderToSelect;
-    }
-
-    private void AttemptToPlaceDefenderAt(Vector2 gridpos)
+     private void AttemptToPlaceDefender(Vector2 gridPos)
     {
         var StarDisplay = FindObjectOfType<StarDisplay>();
-        int defenderCost = defender.GetStarCost();
-        if (StarDisplay.HaveEnoughStars(defenderCost))
+        var defenderCost = defenderPrefab.GetComponent<Defender>().GetStarCost();
+        if (StarDisplay.HaveEnoughStars(defenderCost) && !gridOccupied(gridPos))
         {
-            SpawnDefender(gridpos);
+            SpawnDefender(gridPos);
             StarDisplay.SpendStars(defenderCost);
         }
     }
@@ -72,10 +65,16 @@ public class DefenderSpawner : MonoBehaviour
 
     }
 
+    private bool gridOccupied(Vector2 check)
+    {
+        return occupiedSquares.Contains(check);
+    }
+
     private void SpawnDefender(Vector2 gridPos)
     {
+
         Vector2 check = gridPos;
-        if (!occupiedSquares.Contains(check))
+        if (!gridOccupied(check))
         {
             GameObject newDefender = Instantiate(defenderPrefab, gridPos, Quaternion.identity);
             occupiedSquares.Add(gridPos);
