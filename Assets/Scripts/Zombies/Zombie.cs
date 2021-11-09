@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Zombie : MonoBehaviour
 {
+    [SerializeField] int reward = 10;
     [Range (0f, 5f)]
     [SerializeField] float walkSpeed = 1f;
     [SerializeField] private float baseStartingHealth;
@@ -30,6 +31,8 @@ public class Zombie : MonoBehaviour
 
     private void OnDestroy()
     {
+        
+        FindObjectOfType<StarDisplay>().AddStars(reward);
         ProgressController.singleton.ZombieKilled();
     }
 

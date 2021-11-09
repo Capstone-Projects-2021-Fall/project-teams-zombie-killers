@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 8460065138264080379}
   m_Layer: 0
   m_Name: Trophy
-  m_TagString: Untagged
+  m_TagString: Defender
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 0}
-  starCost: 100
+  starCost: 10
   baseStartingHealth: 10
   shootSpeed: 3
 --- !u!61 &8460065138264080379

@@ -7,7 +7,7 @@ using TMPro;
 public class StarDisplay : MonoBehaviour
 {
 
-    [SerializeField] int stars = 100;
+    [SerializeField] int stars = 30;
     TextMeshProUGUI starText;
 
     void Start()
@@ -18,7 +18,7 @@ public class StarDisplay : MonoBehaviour
 
     private void UpdateDisplay()
     {
-        starText.text = "Resources: " + stars.ToString();
+        starText.text = "Star Coins: " + stars.ToString();
     }
 
     public bool HaveEnoughStars(int amount)

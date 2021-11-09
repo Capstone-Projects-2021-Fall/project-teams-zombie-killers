@@ -51,17 +51,18 @@ public class Defender : MonoBehaviour
 	{
 		Instantiate(projectilePrefab, transform);
 	}
-    #endregion
+	#endregion
 
-    #region Resource/Star Functions
-    public void addStars(int amount)
-	{
-		FindObjectOfType<StarDisplay>().AddStars(amount);
-	}
+	#region Resource/Star Functions
 
 	public int GetStarCost()
 	{
 		return starCost;
+	}
+
+	public void addStars(int amount)
+	{
+		FindObjectOfType<StarDisplay>().AddStars(amount);
 	}
     #endregion
 }
