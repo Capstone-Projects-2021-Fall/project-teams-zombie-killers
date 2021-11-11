@@ -45,6 +45,10 @@ public class ProgressController : MonoBehaviour
     {
         winLabel.SetActive(true);
         GetComponent<AudioSource>().Play();
+
+        //TODO : Add condition for when the level is completed on hard difficulty
+        LevelCompletion.NormalLevelCompleted(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+
         yield return new WaitForSeconds(waitToLoad);
         FindObjectOfType<ScreenLoad>().LoadNextScene();
     }
