@@ -24,6 +24,36 @@ EditorBuildSettings:
     path: Assets/Scenes/Franci 1.unity
     guid: 5255d960812a8654eb48f534058a265b
   - enabled: 0
-    path: Assets/Scenes/Xhuljo 1.unity
+    path: 
     guid: 56c7c94968ba79742bff7a44009c4bb1
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 1/Level 1-HighRes.unity
+    guid: aa998eae3c60f41a684c2ec997691fc6
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 2/Level 2.unity
+    guid: d9c87e83dff734d238b4c18bdbcdf16e
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 3/Level 3.unity
+    guid: 176336e1ee6824bd486f86661ccd572b
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 4/Level 4.unity
+    guid: 9484e8031fcf24efc814a9b44c50d2fe
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 5/Level 5.unity
+    guid: e28dbf1f0f9d5422e889b12a99299ceb
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 6/Level 6.unity
+    guid: 5eaebd86806f34745809199efa01ce82
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 7/Level 7.unity
+    guid: 3c726aff811504228ae58b179f20e414
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 8/Level 8.unity
+    guid: f2ec51497fb8b4f94890c6d6bfee04bb
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 9/Level 9.unity
+    guid: e59fe0376622945928e414ea2da96ae0
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 10/Level 10.unity
+    guid: af99206fbca6247fa9582a09b3d1f2f0
   m_configObjects: {}
