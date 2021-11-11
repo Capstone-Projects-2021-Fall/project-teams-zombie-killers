@@ -44,4 +44,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Levels/Level 6/Level 6.unity
     guid: 5eaebd86806f34745809199efa01ce82
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 7/Level 7.unity
+    guid: 3c726aff811504228ae58b179f20e414
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 8/Level 8.unity
+    guid: f2ec51497fb8b4f94890c6d6bfee04bb
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 9/Level 9.unity
+    guid: e59fe0376622945928e414ea2da96ae0
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Level 10/Level 10.unity
+    guid: af99206fbca6247fa9582a09b3d1f2f0
   m_configObjects: {}
