@@ -5,15 +5,11 @@ using UnityEngine;
 public class Defender : MonoBehaviour
 {
 	public GameObject projectilePrefab;
-	[SerializeField] int starCost = 100;
+	[SerializeField] int starCost = 20;
 
-	[SerializeField] private float baseStartingHealth;
-	protected float startingHealth
-	{
-		get { return baseStartingHealth; }
-		set { baseStartingHealth = value; }
-	}
+	[SerializeField] private float startingHealth;
 	protected float currentHealth;
+
 	[SerializeField] private float shootSpeed;
 
 	void Awake()
@@ -21,10 +17,15 @@ public class Defender : MonoBehaviour
 		StartCoroutine(repeatedShootProjectile());
 	}
 
-	//TODO Needs to be tested
-	public void takeDamage(float damage)
+    void Start()
+    {
+		currentHealth = startingHealth;
+	}
+
+    //TODO Needs to be tested
+    public void takeDamage(float damage)
 	{
-		this.currentHealth = currentHealth - damage;
+		currentHealth -= damage;
 		if (this.currentHealth <= 0)
 		{
 			Destroy(gameObject);
