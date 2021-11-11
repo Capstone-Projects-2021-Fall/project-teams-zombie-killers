@@ -143,5 +143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 0}
-  baseStartingHealth: 5
+  starCost: 100
+  startingHealth: 10
   shootSpeed: 5

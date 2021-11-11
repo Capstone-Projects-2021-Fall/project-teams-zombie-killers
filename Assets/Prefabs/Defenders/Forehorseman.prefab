@@ -144,5 +144,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 2704267840443860180, guid: f553fc7de413de441904291d65873866, type: 3}
   starCost: 20
-  baseStartingHealth: 7
+  startingHealth: 7
   shootSpeed: 3
