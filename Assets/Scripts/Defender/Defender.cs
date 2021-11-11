@@ -5,7 +5,7 @@ using UnityEngine;
 public class Defender : MonoBehaviour
 {
 	public GameObject projectilePrefab;
-	[SerializeField] int starCost = 100;
+	[SerializeField] int starCost = 20;
 
 	[SerializeField] private float startingHealth;
 	protected float currentHealth;

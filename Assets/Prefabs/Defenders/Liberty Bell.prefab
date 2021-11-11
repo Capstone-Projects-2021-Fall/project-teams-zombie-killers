@@ -129,8 +129,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 0}
-  starCost: 5
-  startingHealth: 500
+  starCost: 50
+  startingHealth: 20
   shootSpeed: 1000000
 --- !u!61 &8002214278746419248
 BoxCollider2D:
