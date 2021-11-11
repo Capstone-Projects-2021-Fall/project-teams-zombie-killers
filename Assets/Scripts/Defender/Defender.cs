@@ -25,6 +25,7 @@ public class Defender : MonoBehaviour
 	public void takeDamage(float damage)
 	{
 		this.currentHealth = currentHealth - damage;
+		Debug.Log("Current health" + this.currentHealth.ToString());
 		if (this.currentHealth <= 0)
 		{
 			Destroy(gameObject);
