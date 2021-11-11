@@ -6,8 +6,13 @@ using UnityEngine.UI;
 public class StarDisplay : MonoBehaviour
 {
 
+<<<<<<< Updated upstream
     [SerializeField] int stars = 100;
     Text starText;
+=======
+    [SerializeField] int stars = 30;
+    TextMeshProUGUI starText;
+>>>>>>> Stashed changes
 
     void Start()
     {
@@ -17,7 +22,11 @@ public class StarDisplay : MonoBehaviour
 
     private void UpdateDisplay()
     {
+<<<<<<< Updated upstream
         starText.text = stars.ToString();
+=======
+        starText.text = "Star Coins: " + stars.ToString();
+>>>>>>> Stashed changes
     }
 
     public bool HaveEnoughStars(int amount)

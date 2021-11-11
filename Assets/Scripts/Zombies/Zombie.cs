@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Zombie : MonoBehaviour
 {
+    [SerializeField] int reward = 10;
     [Range (0f, 5f)]
     [SerializeField] float walkSpeed = 1f;
     [SerializeField] private float baseStartingHealth;
@@ -30,7 +31,13 @@ public class Zombie : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+<<<<<<< Updated upstream
         currentHealth = startingHealth;
+=======
+        
+        FindObjectOfType<StarDisplay>().AddStars(reward);
+        ProgressController.singleton.ZombieKilled();
+>>>>>>> Stashed changes
     }
 
     // Update is called once per frame

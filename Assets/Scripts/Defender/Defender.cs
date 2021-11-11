@@ -86,4 +86,21 @@ public class Defender : MonoBehaviour
 	{
 		Instantiate(projectilePrefab, transform);
 	}
+<<<<<<< Updated upstream
+=======
+	#endregion
+
+	#region Resource/Star Functions
+
+	public int GetStarCost()
+	{
+		return starCost;
+	}
+
+	public void addStars(int amount)
+	{
+		FindObjectOfType<StarDisplay>().AddStars(amount);
+	}
+    #endregion
+>>>>>>> Stashed changes
 }
