@@ -58,7 +58,11 @@ public class Zombie : MonoBehaviour
             //Destroy(collision.gameObject);
             Defender defender = collision.gameObject.GetComponent<Defender>();
             if (defender != null)
+            {
+                //TODO: This is getting called more than once
                 StartCoroutine(Attack(defender));
+            }
+
         }
     }
 
@@ -81,9 +85,11 @@ public class Zombie : MonoBehaviour
         }
     }
 
+
+    //TODO: Needs to stop attacking after Defender is destroyed
     IEnumerator Attack(Defender defender)
     {
-        while (this)
+        while (defender != null)
         {
             yield return new WaitForSeconds(attackRefresh);
             defender.takeDamage(damage);
