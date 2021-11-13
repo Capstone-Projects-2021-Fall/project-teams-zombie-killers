@@ -5,19 +5,26 @@ using DG.Tweening;
 
 public class Projectile : MonoBehaviour
 {
-    [Header("This value is the amount of time (in seconds) it takes for the projectile to reach end of screen")]
+    [Header("This value is the how many units to the right the projectile moves each second")]
     [SerializeField] private float speed;
     public float damage;
+    public float range = 15;
+
+    private float outsideRange;
 
     void Awake()
     {
-        ProjectileMove();
+        outsideRange = range * 1.2f - 0.6f;
         StartCoroutine(ProjectileRotate());
     }
 
-    void ProjectileMove()
+
+     
+    void Update()
     {
-        transform.DOMoveX(15, speed).OnComplete(killSelf);
+        transform.Translate(Vector3.right * speed * Time.deltaTime, Space.World);
+        if (transform.localPosition.x >= outsideRange)
+            killSelf();
     }
 
     IEnumerator ProjectileRotate()
@@ -33,4 +40,5 @@ public class Projectile : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
 }
