@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a69164f4e89579a4590d9187b6ed61ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 3237326078774042281, guid: 9181c366107b7dd4abc24a3beffe3a4c, type: 3}
+  projectilePrefab: {fileID: 3777083148784818908, guid: 33a27b7b29dec5e44afe7f74eadd72f4, type: 3}
   starCost: 60
   startingHealth: 10
   shootSpeed: 2
@@ -148,7 +148,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.6230769, y: 1.1538461}
+    oldSize: {x: 0.73636365, y: 1.3636364}
     newSize: {x: 0.6230769, y: 1.1538461}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
