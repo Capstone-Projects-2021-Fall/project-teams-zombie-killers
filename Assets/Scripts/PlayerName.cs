@@ -24,7 +24,7 @@ public class PlayerName : MonoBehaviour
     void Update()
     {
         nameOfPlayer = PlayerPrefs.GetString("name", "none");
-        loadedName.text = nameOfPlayer;
+        loadedName.text = "Hello, " + nameOfPlayer + "!";
     }
 
     public void SetName()

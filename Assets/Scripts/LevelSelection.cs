@@ -70,9 +70,9 @@ public class LevelSelection : MonoBehaviour
         SceneManager.LoadScene("StartScreen");
     }
 
-    public void NameSelect()
+    public void StartScreen()
     {
-        SceneManager.LoadScene("StartScreen2");
+        SceneManager.LoadScene("StartScreen");
     }
 
     public void AchievementSelect()
