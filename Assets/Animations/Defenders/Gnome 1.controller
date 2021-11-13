@@ -6,13 +6,13 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Gnome
+  m_Name: Gnome 1
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-    m_StateMachine: {fileID: 2097976446037046}
+    m_StateMachine: {fileID: 3155047520171018059}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -22,7 +22,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1107 &2097976446037046
+--- !u!1107 &3155047520171018059
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -30,10 +30,7 @@ AnimatorStateMachine:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Base Layer
-  m_ChildStates:
-  - serializedVersion: 1
-    m_State: {fileID: 8150285895016274695}
-    m_Position: {x: 260, y: 40, z: 0}
+  m_ChildStates: []
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -43,8 +40,8 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 8150285895016274695}
---- !u!1102 &8150285895016274695
+  m_DefaultState: {fileID: 0}
+--- !u!1102 &5687012904844798193
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
