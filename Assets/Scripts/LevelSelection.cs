@@ -7,7 +7,7 @@ public class LevelSelection : MonoBehaviour
 {
     public void Level1()
     {
-        SceneManager.LoadScene("Level 1-High Res");
+        SceneManager.LoadScene("Level 1-HighRes");
     }
 
     public void Level2()
