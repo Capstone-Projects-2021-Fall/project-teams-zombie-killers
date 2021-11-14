@@ -18,6 +18,7 @@ public class Defender : MonoBehaviour
 		currentHealth = startingHealth;
 	}
 
+
     //TODO Needs to be tested
     public void takeDamage(float damage)
 	{
