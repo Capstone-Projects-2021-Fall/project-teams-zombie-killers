@@ -2987,6 +2987,18 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6650025163073169717, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1775810045}
+    - target: {fileID: 6650025163073169717, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650025163073169717, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelSelection, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 6650025163153124577, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -3074,6 +3086,18 @@ PrefabInstance:
     - target: {fileID: 6650025163153124582, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650025163276218861, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1775810045}
+    - target: {fileID: 6650025163276218861, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650025163276218861, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelSelection, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6650025163310904420, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchorMax.x
@@ -6270,6 +6294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zombiePrefabArray:
+  - {fileID: -1205840395001940453, guid: daad471ecd4d543d59a496befc4b455b, type: 3}
   - {fileID: -1205840395001940453, guid: daad471ecd4d543d59a496befc4b455b, type: 3}
   level: 1
 --- !u!224 &1981553500

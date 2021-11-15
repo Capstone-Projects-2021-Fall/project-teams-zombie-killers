@@ -2111,7 +2111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08ebbf40c26d4da7adaa635ac0f807c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PreviousSceneName: Level 1
+  PreviousSceneName: Level 1-HighRes
   difficulty: 0
 --- !u!1 &764233973
 GameObject:
@@ -4095,7 +4095,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1683482508
 RectTransform:
   m_ObjectHideFlags: 0
