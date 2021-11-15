@@ -29,6 +29,7 @@ public class PlayerName : MonoBehaviour
 
     public void SetName()
     {
+        PlayerPrefs.DeleteAll();
         saveName = inputText.text;
         PlayerPrefs.SetString("name", saveName);
         GetPlayerName.playerName = nameOfPlayer;

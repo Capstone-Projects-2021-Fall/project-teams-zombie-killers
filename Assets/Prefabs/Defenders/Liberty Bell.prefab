@@ -128,10 +128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a69164f4e89579a4590d9187b6ed61ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 0}
   starCost: 50
-  startingHealth: 20
-  shootSpeed: 1000000
+  startingHealth: 100
 --- !u!61 &8002214278746419248
 BoxCollider2D:
   m_ObjectHideFlags: 0

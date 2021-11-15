@@ -7,7 +7,7 @@ public class LevelSelection : MonoBehaviour
 {
     public void Level1()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Level 1-HighRes");
     }
 
     public void Level2()
@@ -74,6 +74,14 @@ public class LevelSelection : MonoBehaviour
     {
         SceneManager.LoadScene("StartScreen");
     }
+
+
+    public void StartScreenDeletePlayerPrefs()
+    {
+        
+        SceneManager.LoadScene("StartScreen");
+    }
+    
 
     public void AchievementSelect()
     {
