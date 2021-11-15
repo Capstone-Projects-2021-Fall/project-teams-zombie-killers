@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reward: 10
-  walkSpeed: 0.8
+  walkSpeed: 1.18
   baseStartingHealth: 15
   damage: 2
   attackRefresh: 2
