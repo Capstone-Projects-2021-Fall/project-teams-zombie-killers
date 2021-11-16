@@ -153,4 +153,15 @@ public class AchievementManager : MonoBehaviour
     {
         PlayerPrefs.SetInt(achID + "_" + type.ToUpper(), value);
     }
+
+    public void ResetAchievements()
+    {
+        foreach (Achievement achievement in achievements)
+        {
+            achievement.unlocked = false;
+            achievement.current = 0;
+            SaveAchievementData(achievement.ID);
+        }
+
+    }
 }
