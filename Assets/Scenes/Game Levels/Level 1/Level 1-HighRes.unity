@@ -2979,6 +2979,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1336446232, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: achievements.Array.data[0].goal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1336446232, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: achievements.Array.data[1].description
+      value: Place 5 ForeHorseman
+      objectReference: {fileID: 0}
+    - target: {fileID: 1336446232, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: achievements.Array.data[2].description
+      value: Place 5 Cactus
+      objectReference: {fileID: 0}
+    - target: {fileID: 1336446232, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: achievements.Array.data[3].description
+      value: Trophy 5 Trophies
+      objectReference: {fileID: 0}
     - target: {fileID: 3072171431330645272, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
