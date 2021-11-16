@@ -18,6 +18,12 @@ public class Zombie : MonoBehaviour
     [SerializeField] private float attackRefresh;
     private bool isAttacking = false;
 
+    // materials
+
+    private Material matWhite;
+    private Material matDefault;
+    SpriteRenderer changeColor;
+
     private void Awake()
     {
         ProgressController.singleton.ZombieSpawned();
@@ -27,6 +33,9 @@ public class Zombie : MonoBehaviour
     void Start()
     {
         currentHealth = startingHealth;
+        changeColor = GetComponent<SpriteRenderer>();
+        matWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
+        matDefault = changeColor.material;
     }
 
     private void OnDestroy()
@@ -50,6 +59,7 @@ public class Zombie : MonoBehaviour
         {
             takeDamage(collision.gameObject.GetComponent<Projectile>().damage);
             Destroy(collision.gameObject);
+            changeColor.material = matWhite;
         }
 
         if (collision.CompareTag("Defender"))
@@ -83,6 +93,15 @@ public class Zombie : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else
+        {
+            Invoke("ResetMaterial", .05f);
+        }
+    }
+
+    void ResetMaterial()
+    {
+        changeColor.material = matDefault;
     }
 
 
