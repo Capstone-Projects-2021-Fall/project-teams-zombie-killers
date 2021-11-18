@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 560004067751935331}
   - component: {fileID: 4852883506659087656}
   - component: {fileID: 4852883506659087657}
-  - component: {fileID: 2200708058386235359}
+  - component: {fileID: 9180168785760073697}
   m_Layer: 0
   m_Name: Ninja
   m_TagString: Untagged
@@ -30,8 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.3921, y: -1.9093, z: -47.574417}
   m_LocalScale: {x: 0.46799424, y: 0.37319484, z: 1}
-  m_Children:
-  - {fileID: 4524425932372272800}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -131,7 +130,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2200708058386235359
+--- !u!114 &9180168785760073697
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,86 +139,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3901381541620526316}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a69164f4e89579a4590d9187b6ed61ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 36910cbb21d8348bfa3e9ba801376312, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 10
   startingHealth: 10
---- !u!1001 &3364321881516398437
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5041919045312091626}
-    m_Modifications:
-    - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: range
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: damage
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: shootSpeed
-      value: 5000
-      objectReference: {fileID: 0}
-    - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: projectilePrefab
-      value: 
-      objectReference: {fileID: 7648615651058956072, guid: 7ae8850e7fff77f4cbcee8ae3a81cb07, type: 3}
-    - target: {fileID: 8679968778291760024, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: m_Name
-      value: RangeTriggerGameObject
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
---- !u!4 &4524425932372272800 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-  m_PrefabInstance: {fileID: 3364321881516398437}
-  m_PrefabAsset: {fileID: 0}
+  ninjaStarPrefab: {fileID: 7648615651058956072, guid: 7ae8850e7fff77f4cbcee8ae3a81cb07, type: 3}
