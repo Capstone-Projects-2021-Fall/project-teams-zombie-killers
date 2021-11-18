@@ -58,7 +58,14 @@ public class Zombie : MonoBehaviour
         if (collision.CompareTag("DefenderProjectile"))
         {
             takeDamage(collision.gameObject.GetComponent<Projectile>().damage);
-            Destroy(collision.gameObject);
+            if (collision.gameObject.name.Equals("Ninja Star(Clone)"))
+            {
+                
+            }
+            else
+            {
+                Destroy(collision.gameObject);
+            }
             changeColor.material = matWhite;
         }
 
