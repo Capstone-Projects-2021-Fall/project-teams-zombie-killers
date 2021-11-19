@@ -5,15 +5,11 @@ using TMPro;
 
 public class DefenderCost : MonoBehaviour
 {
+    public GameObject defenderPfab;
+
     // Start is called before the first frame update
     void Start()
     {
-        this.gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = this.GetComponentInParent<DefenderButton>().defenderPrefab.GetComponent<Defender>().GetStarCost().ToString();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        gameObject.GetComponent<TextMeshProUGUI>().text = defenderPfab.GetComponent<Defender>().GetStarCost().ToString();
     }
 }
