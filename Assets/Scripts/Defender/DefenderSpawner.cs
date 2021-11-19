@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class DefenderSpawner : MonoBehaviour
+public class DefenderSpawner : MonoBehaviour, IPointerDownHandler
 {
     public GameObject defenderPrefab;
 
@@ -26,11 +28,10 @@ public class DefenderSpawner : MonoBehaviour
         }
     }
 
-    private void OnMouseDown()
+    public void OnPointerDown(PointerEventData eventData)
     {
         AttemptToPlaceDefender(GetSquareClicked());
-
-
+        defenderPrefab = null;
     }
 
     public void SetSelectedDefender(GameObject defenderToSelect)
@@ -38,8 +39,12 @@ public class DefenderSpawner : MonoBehaviour
         defenderPrefab = defenderToSelect;
     }
 
-     private void AttemptToPlaceDefender(Vector2 gridPos)
+    private void AttemptToPlaceDefender(Vector2 gridPos)
     {
+        if (defenderPrefab == null)
+        {
+            Debug.LogError("No defender selected!");
+        }
         var StarDisplay = FindObjectOfType<StarDisplay>();
         var defenderCost = defenderPrefab.GetComponent<Defender>().GetStarCost();
         if (StarDisplay.HaveEnoughStars(defenderCost) && !gridOccupied(gridPos))
