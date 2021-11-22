@@ -41,7 +41,6 @@ public class BoxerDefender : MonoBehaviour
             Debug.Log("Attack");
             
             enemy.GetComponent<Zombie>().takeDamage(4);
-            enemy.GetComponent<Zombie>().ResetMaterial();
         }
     }
 
