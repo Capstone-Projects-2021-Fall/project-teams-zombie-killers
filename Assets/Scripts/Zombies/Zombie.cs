@@ -106,7 +106,7 @@ public class Zombie : MonoBehaviour
         }
     }
 
-    void ResetMaterial()
+    public void ResetMaterial()
     {
         changeColor.material = matDefault;
     }

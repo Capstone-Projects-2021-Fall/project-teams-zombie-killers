@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2103261106787431547}
   - component: {fileID: 1472141657649741233}
   - component: {fileID: -2254581820948723418}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Frying Pan Zombie
   m_TagString: Enemy
   m_Icon: {fileID: 0}
