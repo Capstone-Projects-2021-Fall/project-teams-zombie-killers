@@ -66,7 +66,6 @@ public class Zombie : MonoBehaviour
             {
                 Destroy(collision.gameObject);
             }
-            changeColor.material = matWhite;
         }
 
         if (collision.CompareTag("Defender"))
@@ -102,6 +101,7 @@ public class Zombie : MonoBehaviour
         }
         else
         {
+            changeColor.material = matWhite;
             Invoke("ResetMaterial", .05f);
         }
     }
