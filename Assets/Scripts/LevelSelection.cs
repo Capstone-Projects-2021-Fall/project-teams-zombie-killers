@@ -75,13 +75,17 @@ public class LevelSelection : MonoBehaviour
         SceneManager.LoadScene("StartScreen");
     }
 
+    public void NameScreen()
+    {
+        SceneManager.LoadScene("PlayerName");
+    }
+
 
     public void StartScreenDeletePlayerPrefs()
     {
         
         SceneManager.LoadScene("StartScreen");
     }
-    
 
     public void AchievementSelect()
     {
