@@ -9,8 +9,8 @@ public class PersistentData : PlayerPrefs
 {
 
     #region name
-    private static string name = PlayerPrefs.GetString("name", "none");
-    private static string storedKeys = PersistentData.GetString("All_Stored_Keys_For_This_Name");
+    private static string name = PlayerPrefs.GetString("name", "");
+    private static string storedKeys = PersistentData.GetString(name + "_All_Stored_Keys_For_This_Name");
 
     /// <summary>
     ///   <para>Sets the name of the Player name to uniquely generate and retrive keys for each player name.</para>
