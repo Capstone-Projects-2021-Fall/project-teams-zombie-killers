@@ -10,7 +10,7 @@ public class PersistentData : PlayerPrefs
 
     #region name
     private static string name = PlayerPrefs.GetString("name", "");
-    private static string storedKeys = PersistentData.GetString(name + "_All_Stored_Keys_For_This_Name");
+    private static string storedKeys = PlayerPrefs.GetString(name + "_All_Stored_Keys_For_This_Name","");
 
     /// <summary>
     ///   <para>Sets the name of the Player name to uniquely generate and retrive keys for each player name.</para>
@@ -20,7 +20,7 @@ public class PersistentData : PlayerPrefs
     {
         PlayerPrefs.SetString("name", newName);
         name = newName;
-        storedKeys = PlayerPrefs.GetString(name + "_All_Stored_Preferences_For_This_Name");
+        storedKeys = PlayerPrefs.GetString(name + "_All_Stored_Keys_For_This_Name", "");
     }
 
 
@@ -40,25 +40,40 @@ public class PersistentData : PlayerPrefs
     {
         if (!HasKey(key))
         {
-            storedKeys += ";" + key;
-            SetString("All_Stored_Keys_For_This_Name", storedKeys);
+            if (storedKeys.Length == 0)
+                storedKeys += key;
+            else
+                storedKeys += ";" + key;
+            PlayerPrefs.SetString(name + "_All_Stored_Keys_For_This_Name", storedKeys);
         }
     }
 
-    public static string[] getKeys()
+    /// <summary>
+    /// Returns all of the keys accociated with the current player name
+    /// </summary>
+    /// <returns></returns>
+    public static string[] GetKeys()
     {
-        return storedKeys.Split(';');
+        if (storedKeys.Equals(""))
+        {
+            string[] EmptyStringArray = {};
+            return EmptyStringArray;
+        }
+        else
+        {
+            return storedKeys.Split(';');
+        }
     }
 
     public static void DeleteAllForPlayer()
     {
-        string[] keys = getKeys();
+        string[] keys = GetKeys();
         foreach (string key in keys)
         {
             DeleteKey(key);
         }
         storedKeys = "";
-        SetString("All_Stored_Keys_For_This_Name", storedKeys);
+        PlayerPrefs.SetString(name + "_All_Stored_Keys_For_This_Name", storedKeys);
     }
     #endregion
 
@@ -122,6 +137,7 @@ public class PersistentData : PlayerPrefs
     {
         StoreKey(key);
         PlayerPrefs.SetInt(name + "_" + key, value);
+        Debug.Log(storedKeys);
     }
 
     /// <summary>
@@ -201,7 +217,7 @@ public class PersistentData : PlayerPrefs
         PlayerPrefs.DeleteKey(name + "_" + key);
 
         //If the key was storing a value for a player then this will find the index of where it was stored
-        string[] keys = getKeys();
+        string[] keys = GetKeys();
         int indexToRemove = -1;
         for (int i = 0; i < keys.Length; i++)
         {
@@ -226,7 +242,7 @@ public class PersistentData : PlayerPrefs
                 }
             }
             storedKeys = newStoredKeys;
-            PersistentData.SetString("All_Stored_Keys_For_This_Name", storedKeys);
+            PlayerPrefs.SetString(name + "_All_Stored_Keys_For_This_Name", storedKeys);
         }
     }
     #endregion
