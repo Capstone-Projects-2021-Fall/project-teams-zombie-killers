@@ -31,7 +31,7 @@ public class DefenderSpawner : MonoBehaviour, IPointerDownHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         AttemptToPlaceDefender(GetSquareClicked());
-        defenderPrefab = null;
+        //defenderPrefab = null;
     }
 
     public void SetSelectedDefender(GameObject defenderToSelect)
@@ -45,13 +45,17 @@ public class DefenderSpawner : MonoBehaviour, IPointerDownHandler
         {
             Debug.LogError("No defender selected!");
         }
-        var StarDisplay = FindObjectOfType<StarDisplay>();
-        var defenderCost = defenderPrefab.GetComponent<Defender>().GetStarCost();
-        if (StarDisplay.HaveEnoughStars(defenderCost) && !gridOccupied(gridPos))
+        else
         {
-            SpawnDefender(gridPos);
-            StarDisplay.SpendStars(defenderCost);
+            var StarDisplay = FindObjectOfType<StarDisplay>();
+            var defenderCost = defenderPrefab.GetComponent<Defender>().GetStarCost();
+            if (StarDisplay.HaveEnoughStars(defenderCost) && !gridOccupied(gridPos))
+            {
+                SpawnDefender(gridPos);
+                StarDisplay.SpendStars(defenderCost);
+            }
         }
+        
     }
 
     private Vector2 GetSquareClicked()
