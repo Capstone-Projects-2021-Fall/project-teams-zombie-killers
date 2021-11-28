@@ -146,12 +146,12 @@ public class AchievementManager : MonoBehaviour
 
     public int GetAchievementPref(string type, AchievementType achID)
     {
-        return PlayerPrefs.GetInt(achID + "_" + type.ToUpper());
+        return PersistentData.GetInt(achID + "_" + type.ToUpper());
     }
 
     public void SetAchievementPref(string type, AchievementType achID, int value)
     {
-        PlayerPrefs.SetInt(achID + "_" + type.ToUpper(), value);
+        PersistentData.SetInt(achID + "_" + type.ToUpper(), value);
     }
 
     public void ResetAchievements()

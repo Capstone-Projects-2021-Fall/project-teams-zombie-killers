@@ -44,6 +44,7 @@ public class SliderX : MonoBehaviour
         if (Settings.profile)
         {
             Settings.profile.SetAudioLevels(volumeName, value);
+            Settings.profile.SaveAudioLevels();
         }
     }
 
