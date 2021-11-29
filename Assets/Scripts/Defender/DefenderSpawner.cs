@@ -132,7 +132,7 @@ public class DefenderSpawner : MonoBehaviour, IPointerDownHandler
 
             }
 
-            else if (defenderPrefab.name.Contains("Boxer"))
+            else if (defenderPrefab.name.Contains("Rocky"))
             {
 
                 AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_ROCKY, 1);
