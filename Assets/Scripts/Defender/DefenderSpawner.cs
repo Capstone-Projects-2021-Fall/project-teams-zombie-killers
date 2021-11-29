@@ -111,6 +111,41 @@ public class DefenderSpawner : MonoBehaviour, IPointerDownHandler
 
             }
 
+            else if (defenderPrefab.name.Contains("Liberty Bell"))
+            {
+
+                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_LIBERTYBELL, 1);
+
+            }
+
+            else if (defenderPrefab.name.Contains("Gnome"))
+            {
+
+                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_GNOME, 1);
+
+            }
+
+            else if (defenderPrefab.name.Contains("Ninja"))
+            {
+
+                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_NINJA, 1);
+
+            }
+
+            else if (defenderPrefab.name.Contains("Boxer"))
+            {
+
+                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_ROCKY, 1);
+
+            }
+
+            else if (defenderPrefab.name.Contains("Fireman"))
+            {
+
+                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_FIREMAN, 1);
+
+            }
+
         }
         else
         {

@@ -9,8 +9,14 @@ public enum AchievementType
     ZKS_TEST,
     ZKS_DEFENDER,
     ZKS_FOREHORSEMAN,
+    ZKS_CACTUS,
     ZKS_TROPHY,
-    ZKS_CACTUS
+    ZKS_LIBERTYBELL,
+    ZKS_GNOME,
+    ZKS_NINJA,
+    ZKS_ROCKY,
+    ZKS_FIREMAN
+    
 }
 
 public class AchievementManager : MonoBehaviour
