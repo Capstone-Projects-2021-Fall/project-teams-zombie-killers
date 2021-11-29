@@ -3,22 +3,21 @@ project-teams-zombie-killers created by GitHub Classroom
 
 
 ## Project Abstract
-This document proposes an "tower defense" genre of mobile game marketed towards casual gamers who want an easy-to-pick-up and addicting game to play in short bursts during their free time. The product design will focus on simple gameplay mechanics that allow the user to easily and intuitively pick up the game and play for short periods of time, not unlike similar products such as Plants vs Zombies.
+Zombie Killers is a "tower defense" genre of game marketed towards casual gamers who are familiar with the genre, and want a famililar but slightly more challenging and visually unique tower defense game to play in short bursts during their free time. The product design will focus on gameplay mechanics that draw heavy inspiration from newer additions to the tower defense genre, such as Plants vs Zombies, as well as more traditional tower defense games such as the Bloons Tower Defense series, while adding our own unique twist on the genre.
 
 ## High Level Requirement
-The end product should be a simple mobile game that can be easily picked up by users of all ages, with the easy-to-learn and addictive gameplay that is characteristic of the tower defense genre of mobile games. The end product should be monetizable, with gameplay that keeps users coming back and watching ads or spending money on in-app purchases (IAPs) to help them get that next best high score.
+The end product should be a simple mobile game that can be easily picked up by users of all ages, with the easy-to-learn and addictive gameplay that is characteristic of the tower defense genre of mobile games. The end product should feature a core gameplay loop that consists of the user placing "defender" units that will defend against an invading wave of zombie attackers, accumulating resources and strategizing their defense using a variety of defenders, each with their own unique abilities. 
 
 ## Conceptual Design
-The product is designed to be a mobile app and should be made available on both iOS and Android. This game will be built in the Unity game engine and C#.
+The product is designed to function as a mobile app and will be made available on Android devices, and will be built in the Unity game engine and C#. The game will also support PC and Windows build, as well as deployment as a web game using the Unity WebGL Player.
 
 ## Background
-Our project is a new addition to the tower defense genre, similar to other mobile games such as Plants vs Zombies or Bloons TD. It should feature simple tap or swipe controls, a short gameplay loop, and the level design and scoring system characteristic of this genre of mobile games.
+Our project is a new addition to the tower defense genre, similar to other mobile games such as Plants vs Zombies or Bloons TD. It should feature simple tap controls, a short gameplay loop, and the level design and progression system characteristic of this genre of mobile games.
 
 ## Required Resources
 **Hardware:**
-- Computer (Windows or Mac)
-- iPhone (for iOS testing)
-- Android phone (for Android testing)
+- Computer (Windows and Mac)
+- Android device (for mobile/tablet testing)
 
 **Software:**
 - Unity Personal or Unity Student 
