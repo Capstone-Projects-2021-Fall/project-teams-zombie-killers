@@ -8,7 +8,7 @@ public class RangedDefenderTrigger : MonoBehaviour
     public GameObject projectilePrefab;
 
     [Header("Damage that will be dealt by projectile")]
-    [SerializeField] private int damage;
+    [SerializeField] private float damage;
 
     [Header("The defender will only shoot defenders in this range.")]
     [SerializeField] private int range;

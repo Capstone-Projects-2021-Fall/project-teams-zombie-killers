@@ -196,22 +196,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: range
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: damage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: shootSpeed
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
-      propertyPath: projectilePrefab
-      value: 
-      objectReference: {fileID: 5536468913508162578, guid: a821ff028d8f83b4faf41f9900c1d38d, type: 3}
     - target: {fileID: 8679968778291760024, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
       propertyPath: m_Name
       value: RangeTriggerGameObject

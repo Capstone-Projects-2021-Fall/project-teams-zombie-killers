@@ -71,6 +71,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 5536468913508162578, guid: a821ff028d8f83b4faf41f9900c1d38d, type: 3}
-  damage: 3
+  damage: 1
   range: 10
-  shootSpeed: 4
+  shootSpeed: 0.2
