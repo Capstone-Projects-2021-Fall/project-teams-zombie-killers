@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 1977934530}
   - component: {fileID: 6295543470932115426}
   m_Layer: 0
-  m_Name: Boxer
+  m_Name: Rocky
   m_TagString: Defender
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
