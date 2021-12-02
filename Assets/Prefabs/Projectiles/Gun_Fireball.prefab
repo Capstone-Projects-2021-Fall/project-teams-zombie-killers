@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3619685391632713185}
   - component: {fileID: 7614238171751080301}
   - component: {fileID: 2076919419703288927}
+  - component: {fileID: 4168421537217420547}
   - component: {fileID: 4546303621263981744}
   - component: {fileID: 6696790380067596833}
   m_Layer: 0
@@ -100,6 +101,19 @@ MonoBehaviour:
   speed: 4
   damage: 2
   range: 15
+--- !u!114 &4168421537217420547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5536468913508162578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55aa64f0ba0c44d5387e55299f5c2e30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onFirePrefab: {fileID: 8222617264835996467, guid: 852720923f6f54162907a64d71358d83, type: 3}
 --- !u!61 &4546303621263981744
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -124,7 +138,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.39764, y: 8.812438}
+  m_Size: {x: 7.39764, y: 1}
   m_EdgeRadius: 0
 --- !u!95 &6696790380067596833
 Animator:
