@@ -5,20 +5,20 @@ using DG.Tweening;
 
 public class PauseScreen : MonoBehaviour
 {
-    public static PauseScreen singleton;
+    //public static PauseScreen singleton;
 
-    public GameObject[] zombieSpawners;
+    //public GameObject[] zombieSpawners;
 
     private void Start()
     {
-        if (singleton != null && singleton != this)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            singleton = this;
-        }
+        //if (singleton != null && singleton != this)
+        //{
+        //    Destroy(gameObject);
+        //}
+        //else
+        //{
+        //    singleton = this;
+        //}
     }
 
     private void OnEnable()
