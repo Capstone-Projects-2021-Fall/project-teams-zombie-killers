@@ -1111,11 +1111,35 @@ MonoBehaviour:
     unlocked: 0
     hidden: 0
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Defender
+    description: Place 100 Defenders
+    ID: 15
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     display: ForeHorseman
     description: Place 5 ForeHorseman
     ID: 2
     current: 0
     goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert ForeHorseman
+    description: Place 100 ForeHorseman
+    ID: 17
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master ForeHorseman
+    description: ForeHorseman Master
+    ID: 17
+    current: 0
+    goal: 350
     unlocked: 0
     hidden: 0
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
@@ -1127,13 +1151,269 @@ MonoBehaviour:
     unlocked: 0
     hidden: 0
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Cactus
+    description: Place 100 Cactus
+    ID: 19
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Cactus
+    description: Cactus Master
+    ID: 18
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     display: Trophy
-    description: Trophy 5 Trophies
+    description: Place 5 Trophies
     ID: 3
     current: 0
     goal: 5
     unlocked: 0
     hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Trophy
+    description: Place 100 Trophies
+    ID: 21
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Trophy
+    description: Trophy Master
+    ID: 20
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Liberty Bell
+    description: Place 5 Liberty Bells
+    ID: 5
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Liberty Bell
+    description: Place 100 Liberty Bells
+    ID: 23
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Liberty Bell
+    description: Liberty Bells Master
+    ID: 22
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Gnome
+    description: Place 5 Gnomes
+    ID: 6
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Gnome
+    description: Gnomes Master
+    ID: 25
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Gnome
+    description: Place 100 Gnomes
+    ID: 24
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Ninja
+    description: Place 5 Ninjas
+    ID: 7
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Ninja
+    description: Place 100 Ninjas
+    ID: 26
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Ninja
+    description: Ninja Master
+    ID: 27
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Rocky
+    description: Place 5 Rockies
+    ID: 8
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Rocky
+    description: Place 100 Rockies
+    ID: 28
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Rocky
+    description: Rocky Master
+    ID: 29
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Fireman
+    description: Place 5 Firemen
+    ID: 9
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Fireman
+    description: Place 100 Firemen
+    ID: 30
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Fireman
+    description: Fireman Master
+    ID: 31
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: AdventureGirl
+    description: Place 5 AdventureGirls
+    ID: 10
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert AdventureGirl
+    description: Place 100 AdventureGirls
+    ID: 32
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master AdventureGirl
+    description: AdventureGirl Master
+    ID: 33
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Robot
+    description: Place 5 Robots
+    ID: 11
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Robot
+    description: Place 100 Robots
+    ID: 34
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Robot
+    description: Robot Master
+    ID: 35
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Freek
+    description: Place 5 Freeks
+    ID: 12
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Freek
+    description: Place 100 Freeks
+    ID: 36
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Freek
+    description: Freek Master
+    ID: 37
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Bomber
+    description: Place 5 Bombers
+    ID: 13
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Bomber
+    description: Place 100 Bombers
+    ID: 38
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Bomber
+    description: Bomber Master
+    ID: 38
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Defender
+    description: You Made It !!!
+    ID: 14
+    current: 0
+    goal: 1000
+    unlocked: 0
+    hidden: 1
 --- !u!4 &548428177
 Transform:
   m_ObjectHideFlags: 0
