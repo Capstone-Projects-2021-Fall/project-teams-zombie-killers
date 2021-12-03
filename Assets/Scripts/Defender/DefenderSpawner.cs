@@ -177,8 +177,8 @@ public class DefenderSpawner : MonoBehaviour, IPointerDownHandler
             {
 
                 AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_ROBOT, 1);
-                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_EXPERTADVENTUREGIRL, 1);
-                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_MASTERADVENTUREGIRL, 1);
+                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_EXPERTROBOT, 1);
+                AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_MASTERROBOT, 1);
 
             }
 
