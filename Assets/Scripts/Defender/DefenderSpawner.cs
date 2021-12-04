@@ -51,7 +51,6 @@ public class DefenderSpawner : MonoBehaviour, IPointerDownHandler
                 
                 var StarDisplay = FindObjectOfType<StarDisplay>();
                 var defenderCost = defenderPrefab.GetComponent<Defender>().GetStarCost();
-                Debug.Log(defenderCost);
                 if (StarDisplay.HaveEnoughStars(defenderCost) && !gridOccupied(gridPos))
                 {
                     StarDisplay.SpendStars(defenderCost);
