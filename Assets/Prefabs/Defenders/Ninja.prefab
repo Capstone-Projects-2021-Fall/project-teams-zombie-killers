@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4852883506659087656}
   - component: {fileID: 4852883506659087657}
   - component: {fileID: 9180168785760073697}
+  - component: {fileID: 4466999626346063275}
   m_Layer: 0
   m_Name: Ninja
   m_TagString: Untagged
@@ -142,6 +143,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36910cbb21d8348bfa3e9ba801376312, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ninjaStarPrefab: {fileID: 7648615651058956072, guid: 7ae8850e7fff77f4cbcee8ae3a81cb07, type: 3}
+--- !u!114 &4466999626346063275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3901381541620526316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69164f4e89579a4590d9187b6ed61ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   starCost: 10
   startingHealth: 10
-  ninjaStarPrefab: {fileID: 7648615651058956072, guid: 7ae8850e7fff77f4cbcee8ae3a81cb07, type: 3}
