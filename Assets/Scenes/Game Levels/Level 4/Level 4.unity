@@ -4512,6 +4512,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6881006358279863334, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_Text
+      value: This defender packs a deadly punch against any Zombies that steps within
+        his range.
+      objectReference: {fileID: 0}
     - target: {fileID: 7024701349152144775, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1

@@ -1902,6 +1902,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 376629398653455888, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 832e563aba61742ebb2ddb8ccb23a9f5, type: 3}
     - target: {fileID: 1356672015669568783, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1933,6 +1937,10 @@ PrefabInstance:
     - target: {fileID: 1579180854483279104, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404058976718065008, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_Text
+      value: 'New Defender: Adventurer'
       objectReference: {fileID: 0}
     - target: {fileID: 2440565646936594639, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2082,6 +2090,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6881006358279863334, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_Text
+      value: Zombies don't stand a chance against her flamethrower.
+      objectReference: {fileID: 0}
     - target: {fileID: 7024701349152144775, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2153,6 +2165,22 @@ PrefabInstance:
     - target: {fileID: 8004495106119308642, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265056358875956434, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 84.706
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265056358875956434, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 73.9654
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265056358875956434, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 47.647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265056358875956434, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 44.5072
       objectReference: {fileID: 0}
     - target: {fileID: 8389200877925346888, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchorMax.y

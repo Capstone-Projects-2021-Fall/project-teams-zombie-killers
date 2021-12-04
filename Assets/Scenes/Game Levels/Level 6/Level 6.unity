@@ -364,6 +364,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 376629398653455888, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dc6cf1109931bc24b8dd8fb2320065a2, type: 3}
     - target: {fileID: 814554474201655823, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -399,6 +403,10 @@ PrefabInstance:
     - target: {fileID: 1579180854483279104, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404058976718065008, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_Text
+      value: 'New Defender: Hitchhiking Robot'
       objectReference: {fileID: 0}
     - target: {fileID: 2440565646936594639, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchorMax.y
@@ -548,6 +556,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6881006358279863334, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_Text
+      value: While this robot didn't get the most friendly welcome when he arrived
+        in Philly, he now fights with us against the Zombies.
+      objectReference: {fileID: 0}
     - target: {fileID: 7024701349152144775, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -627,6 +640,22 @@ PrefabInstance:
     - target: {fileID: 8004495106119308642, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265056358875956434, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 77.0131
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265056358875956434, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 72.9797
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265056358875956434, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 44.999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265056358875956434, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 44.999992
       objectReference: {fileID: 0}
     - target: {fileID: 8389200877925346888, guid: 9137ab09f71d8b14a82694c9abc1ee88, type: 3}
       propertyPath: m_AnchorMax.y
