@@ -54,8 +54,9 @@ public class DefenderSpawner : MonoBehaviour, IPointerDownHandler
                 Debug.Log(defenderCost);
                 if (StarDisplay.HaveEnoughStars(defenderCost) && !gridOccupied(gridPos))
                 {
-                    SpawnDefender(gridPos);
                     StarDisplay.SpendStars(defenderCost);
+                    SpawnDefender(gridPos);
+                    
                 }
             }
             else
