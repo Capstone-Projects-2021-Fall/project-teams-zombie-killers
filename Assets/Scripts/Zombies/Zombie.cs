@@ -41,7 +41,7 @@ public class Zombie : MonoBehaviour
     private void OnDestroy()
     {
         
-        FindObjectOfType<StarDisplay>().AddStars(reward);
+        
         ProgressController.singleton.ZombieKilled();
     }
 
@@ -97,6 +97,7 @@ public class Zombie : MonoBehaviour
         this.currentHealth = currentHealth - damage;
         if (this.currentHealth <= 0)
         {
+            FindObjectOfType<StarDisplay>().AddStars(reward);
             Destroy(gameObject);
         }
         else

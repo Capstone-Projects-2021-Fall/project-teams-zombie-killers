@@ -47,13 +47,15 @@ public class DefenderSpawner : MonoBehaviour, IPointerDownHandler
         }
         else
         {
-            if (defenderPrefab.CompareTag("Defender")) {
+            if (defenderPrefab.CompareTag("Defender") || defenderPrefab.CompareTag("NinjaDefender")) {
+                
                 var StarDisplay = FindObjectOfType<StarDisplay>();
                 var defenderCost = defenderPrefab.GetComponent<Defender>().GetStarCost();
                 if (StarDisplay.HaveEnoughStars(defenderCost) && !gridOccupied(gridPos))
                 {
-                    SpawnDefender(gridPos);
                     StarDisplay.SpendStars(defenderCost);
+                    SpawnDefender(gridPos);
+                    
                 }
             }
             else
