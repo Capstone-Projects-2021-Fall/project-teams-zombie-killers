@@ -8,7 +8,7 @@ public class RangedDefenderTrigger : MonoBehaviour
     public GameObject projectilePrefab;
 
     [Header("Damage that will be dealt by projectile")]
-    [SerializeField] private int damage;
+    [SerializeField] private float damage;
 
     [Header("The defender will only shoot defenders in this range.")]
     [SerializeField] private int range;
@@ -26,7 +26,7 @@ public class RangedDefenderTrigger : MonoBehaviour
         projectilePrefab.GetComponent<Projectile>().range = range;
 
         BoxCollider2D collider = GetComponent<BoxCollider2D>();
-        collider.size = new Vector2( (range+1) * 1.2f, 2.4f);
+        collider.size = new Vector2( (range+1) * 1.2f, 0.4f);
         collider.offset = new Vector2( range * 0.6f, 0);
 
     }

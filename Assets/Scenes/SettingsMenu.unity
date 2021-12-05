@@ -318,8 +318,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 855075008}
-  - {fileID: 732535296}
   - {fileID: 684149246}
+  - {fileID: 732535296}
   - {fileID: 522757980}
   m_Father: {fileID: 885096097}
   m_RootOrder: 5
@@ -542,16 +542,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 288674426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: 3710738434707379630, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 2064916234097673511, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: -1967631576421560919, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 8056856818456041789, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: 3279352641294131588, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: 3837173908680883260, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 4502412055082496612, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 4754684134866288074, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 1025543830046995696, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
 --- !u!114 &288674428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -736,7 +744,7 @@ MonoBehaviour:
 
     Darren Chen
 
-    Xhujano Racaku
+    Xhuljano Racaku
 
     Francesko
     Racaku'
@@ -1111,11 +1119,35 @@ MonoBehaviour:
     unlocked: 0
     hidden: 0
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Defender
+    description: Place 100 Defenders
+    ID: 15
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     display: ForeHorseman
     description: Place 5 ForeHorseman
     ID: 2
     current: 0
     goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert ForeHorseman
+    description: Place 100 ForeHorseman
+    ID: 17
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master ForeHorseman
+    description: ForeHorseman Master
+    ID: 17
+    current: 0
+    goal: 350
     unlocked: 0
     hidden: 0
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
@@ -1127,13 +1159,269 @@ MonoBehaviour:
     unlocked: 0
     hidden: 0
   - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Cactus
+    description: Place 100 Cactus
+    ID: 19
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Cactus
+    description: Cactus Master
+    ID: 18
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     display: Trophy
-    description: Trophy 5 Trophies
+    description: Place 5 Trophies
     ID: 3
     current: 0
     goal: 5
     unlocked: 0
     hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Trophy
+    description: Place 100 Trophies
+    ID: 21
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Trophy
+    description: Trophy Master
+    ID: 20
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Liberty Bell
+    description: Place 5 Liberty Bells
+    ID: 5
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Liberty Bell
+    description: Place 100 Liberty Bells
+    ID: 23
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Liberty Bell
+    description: Liberty Bells Master
+    ID: 22
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Gnome
+    description: Place 5 Gnomes
+    ID: 6
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Gnome
+    description: Gnomes Master
+    ID: 25
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Gnome
+    description: Place 100 Gnomes
+    ID: 24
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Ninja
+    description: Place 5 Ninjas
+    ID: 7
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Ninja
+    description: Place 100 Ninjas
+    ID: 26
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Ninja
+    description: Ninja Master
+    ID: 27
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Rocky
+    description: Place 5 Rockies
+    ID: 8
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Rocky
+    description: Place 100 Rockies
+    ID: 28
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Rocky
+    description: Rocky Master
+    ID: 29
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Fireman
+    description: Place 5 Firemen
+    ID: 9
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Fireman
+    description: Place 100 Firemen
+    ID: 30
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Fireman
+    description: Fireman Master
+    ID: 31
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: AdventureGirl
+    description: Place 5 AdventureGirls
+    ID: 10
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert AdventureGirl
+    description: Place 100 AdventureGirls
+    ID: 32
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master AdventureGirl
+    description: AdventureGirl Master
+    ID: 33
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Robot
+    description: Place 5 Robots
+    ID: 11
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Robot
+    description: Place 100 Robots
+    ID: 34
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Robot
+    description: Robot Master
+    ID: 35
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Freek
+    description: Place 5 Freeks
+    ID: 12
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Freek
+    description: Place 100 Freeks
+    ID: 36
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Freek
+    description: Freek Master
+    ID: 37
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Bomber
+    description: Place 5 Bombers
+    ID: 13
+    current: 0
+    goal: 5
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Expert Bomber
+    description: Place 100 Bombers
+    ID: 38
+    current: 0
+    goal: 100
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Bomber
+    description: Bomber Master
+    ID: 38
+    current: 0
+    goal: 350
+    unlocked: 0
+    hidden: 0
+  - icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    display: Master Defender
+    description: You Made It !!!
+    ID: 14
+    current: 0
+    goal: 1000
+    unlocked: 0
+    hidden: 1
 --- !u!4 &548428177
 Transform:
   m_ObjectHideFlags: 0
@@ -1443,7 +1731,7 @@ RectTransform:
   - {fileID: 1737662412}
   - {fileID: 1849935098}
   m_Father: {fileID: 183883682}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1531,7 +1819,7 @@ GameObject:
   - component: {fileID: 732535299}
   - component: {fileID: 732535298}
   - component: {fileID: 732535297}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Close
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1551,11 +1839,11 @@ RectTransform:
   m_Children:
   - {fileID: 959502327}
   m_Father: {fileID: 183883682}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 233, y: 254}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 257, y: -186}
   m_SizeDelta: {x: 119, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732535297
@@ -2343,7 +2631,7 @@ GameObject:
   - component: {fileID: 959502327}
   - component: {fileID: 959502329}
   - component: {fileID: 959502328}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2616,7 +2904,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.9999999, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3433,11 +3721,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2885012758652923230, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 273.3333
+      value: 269.0335
       objectReference: {fileID: 0}
     - target: {fileID: 2885012758652923230, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 44.583332
+      value: 44.181458
       objectReference: {fileID: 0}
     - target: {fileID: 2885012758652923230, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3485,11 +3773,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4739493457776494248, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 62.499996
+      value: 63.116367
       objectReference: {fileID: 0}
     - target: {fileID: 4739493457776494248, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 50.416664
+      value: 50.493095
       objectReference: {fileID: 0}
     - target: {fileID: 4739493457776494248, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3537,11 +3825,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8495913106789896033, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 86.666664
+      value: 85.996056
       objectReference: {fileID: 0}
     - target: {fileID: 8495913106789896033, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 33.333332
+      value: 33.136093
       objectReference: {fileID: 0}
     - target: {fileID: 8495913106789896033, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3753,11 +4041,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2885012758652923230, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 273.3333
+      value: 269.0335
       objectReference: {fileID: 0}
     - target: {fileID: 2885012758652923230, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 44.583332
+      value: 44.181458
       objectReference: {fileID: 0}
     - target: {fileID: 2885012758652923230, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3805,11 +4093,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4739493457776494248, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 62.499996
+      value: 63.116367
       objectReference: {fileID: 0}
     - target: {fileID: 4739493457776494248, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 50.416664
+      value: 50.493095
       objectReference: {fileID: 0}
     - target: {fileID: 4739493457776494248, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3857,11 +4145,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8495913106789896033, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 86.666664
+      value: 85.996056
       objectReference: {fileID: 0}
     - target: {fileID: 8495913106789896033, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 33.333332
+      value: 33.136093
       objectReference: {fileID: 0}
     - target: {fileID: 8495913106789896033, guid: 85588260b7bfe2a44bea5bf4d79cb298, type: 3}
       propertyPath: m_AnchoredPosition.x

@@ -20,30 +20,33 @@ public class LevelSelectionButtonLock : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (difficulty != difficultyTypes.EventSystem)
+        if (!PersistentData.GetPlayerName().Equals("Demo"))
         {
-            if (difficulty == difficultyTypes.NORMAL)
+            if (difficulty != difficultyTypes.EventSystem)
             {
-                //Previous level has not been completed on normal difficulty
-                if (TrackingCompletion && !LevelCompletion.getNormalLevelCompletionStatus(PreviousSceneName))
+                if (difficulty == difficultyTypes.NORMAL)
                 {
-                    Button button = GetComponent<Button>();
-                    button.interactable = false; //Player cannot press the button to advance to the next level
-                    ColorBlock theColor = button.colors;
-                    theColor.disabledColor = new Color(200.0f / 255.0f, 200.0f / 255.0f, 200.0f / 255.0f, 150.0f / 255.0f);
-                    button.colors = theColor;
+                    //Previous level has not been completed on normal difficulty
+                    if (TrackingCompletion && !LevelCompletion.getNormalLevelCompletionStatus(PreviousSceneName))
+                    {
+                        Button button = GetComponent<Button>();
+                        button.interactable = false; //Player cannot press the button to advance to the next level
+                        ColorBlock theColor = button.colors;
+                        theColor.disabledColor = new Color(200.0f / 255.0f, 200.0f / 255.0f, 200.0f / 255.0f, 150.0f / 255.0f);
+                        button.colors = theColor;
+                    }
                 }
-            }
-            else if (difficulty == difficultyTypes.HARD)
-            {
-                //Previous level has not been completed on hard difficulty
-                if (TrackingCompletion && !LevelCompletion.getHardLevelCompletionStatus(PreviousSceneName))
+                else if (difficulty == difficultyTypes.HARD)
                 {
-                    Button button = GetComponent<Button>();
-                    button.interactable = false; //Player cannot press the button to advance to the next level
-                    ColorBlock theColor = button.colors;
-                    theColor.disabledColor = new Color(200.0f / 255.0f, 200.0f / 255.0f, 200.0f / 255.0f, 150.0f / 255.0f);
-                    button.colors = theColor;
+                    //Previous level has not been completed on hard difficulty
+                    if (TrackingCompletion && !LevelCompletion.getHardLevelCompletionStatus(PreviousSceneName))
+                    {
+                        Button button = GetComponent<Button>();
+                        button.interactable = false; //Player cannot press the button to advance to the next level
+                        ColorBlock theColor = button.colors;
+                        theColor.disabledColor = new Color(200.0f / 255.0f, 200.0f / 255.0f, 200.0f / 255.0f, 150.0f / 255.0f);
+                        button.colors = theColor;
+                    }
                 }
             }
         }

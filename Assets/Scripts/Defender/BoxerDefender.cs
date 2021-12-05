@@ -38,8 +38,6 @@ public class BoxerDefender : MonoBehaviour
 
         foreach(Collider2D enemy in hitEnemies)
         {
-            Debug.Log("Attack");
-            
             enemy.GetComponent<Zombie>().takeDamage(attackDamage);
         }
     }
