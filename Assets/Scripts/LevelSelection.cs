@@ -96,4 +96,9 @@ public class LevelSelection : MonoBehaviour
     {
         SceneManager.LoadScene("LevelSelection");
     }
+
+    public void DemoLevel()
+    {
+        SceneManager.LoadScene("Demo Level");
+    }
 }
