@@ -199,7 +199,7 @@ public class DefenderSpawner : MonoBehaviour, IPointerDownHandler
 
             }
 
-            else if (defenderPrefab.name.Contains("Bomber"))
+            else if (defenderPrefab.name.Contains("Bomb"))
             {
 
                 AchievementManager.achievementManagerInstance.AddAchievementProgress(AchievementType.ZKS_BOMBER, 1);
