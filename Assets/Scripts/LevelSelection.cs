@@ -55,6 +55,16 @@ public class LevelSelection : MonoBehaviour
         SceneManager.LoadScene("Level 10");
     }
 
+    public void Level11()
+    {
+        SceneManager.LoadScene("Level 11");
+    }
+
+    public void Level12()
+    {
+        SceneManager.LoadScene("Level 12");
+    }
+
     public void Francio()
     {
         SceneManager.LoadScene("Francio");
