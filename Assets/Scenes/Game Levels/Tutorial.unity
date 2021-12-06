@@ -10234,7 +10234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc7401607cecfe548bde073ddc0ea747, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTime: 70
+  levelTime: 15
 --- !u!224 &6650025165069756720
 RectTransform:
   m_ObjectHideFlags: 0
