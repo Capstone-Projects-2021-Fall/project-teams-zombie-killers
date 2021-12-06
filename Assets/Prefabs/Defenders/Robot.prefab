@@ -122,7 +122,7 @@ Animator:
   m_GameObject: {fileID: 517640216081337224}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 802674c4b84b812429696845daba2474, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a69164f4e89579a4590d9187b6ed61ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 15
+  starCost: 45
   startingHealth: 10
 --- !u!1001 &8610457953059119031
 PrefabInstance:

@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 20
-  startingHealth: 0
+  startingHealth: 12
 --- !u!1001 &3764578879715257622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -195,6 +195,18 @@ PrefabInstance:
     - target: {fileID: 1187126782500188613, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
+      propertyPath: range
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
+      propertyPath: damage
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
+      propertyPath: shootSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6911763420753424010, guid: bedf91738a65040b0982c4ddf12d39c2, type: 3}
       propertyPath: projectilePrefab

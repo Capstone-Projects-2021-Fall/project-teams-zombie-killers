@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 30
-  startingHealth: 10
+  startingHealth: 5
 --- !u!61 &4252894407794482461
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -280,4 +280,4 @@ MonoBehaviour:
   projectilePrefab: {fileID: 6714605236049565004, guid: 7976a80a669444dab820852b6905f9d6, type: 3}
   damage: 1
   range: 7
-  shootSpeed: 1
+  shootSpeed: 3

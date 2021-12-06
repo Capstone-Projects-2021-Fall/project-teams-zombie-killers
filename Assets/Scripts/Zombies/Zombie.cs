@@ -118,8 +118,9 @@ public class Zombie : MonoBehaviour
     {
         while (defender != null)
         {
-            yield return new WaitForSeconds(attackRefresh);
+            
             defender.takeDamage(damage);
+            yield return new WaitForSeconds(attackRefresh);
         }
     }
 }

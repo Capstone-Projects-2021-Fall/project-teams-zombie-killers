@@ -58,6 +58,11 @@ public class Defender : MonoBehaviour
 		return starCost;
 	}
 
+	public float GetHealth()
+    {
+		return currentHealth;
+    }
+
 	public void addStars(int amount)
 	{
 		FindObjectOfType<StarDisplay>().AddStars(amount);
