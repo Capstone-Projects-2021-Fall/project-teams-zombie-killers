@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 50
-  startingHealth: 100
+  startingHealth: 25
 --- !u!61 &8002214278746419248
 BoxCollider2D:
   m_ObjectHideFlags: 0
