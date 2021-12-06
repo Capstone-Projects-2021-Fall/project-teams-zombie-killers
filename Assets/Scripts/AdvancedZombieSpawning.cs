@@ -24,7 +24,17 @@ public class AdvancedZombieSpawning : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        SpawnInfo[] Tutorial = {
+
+            new SpawnInfo(zombiePrefabArray[0], 0.0f, transform.GetChild(2)),
+            new SpawnInfo(zombiePrefabArray[0], 10.0f, transform.GetChild(1)),
+            new SpawnInfo(zombiePrefabArray[0], 10.0f, transform.GetChild(3)),
+            new SpawnInfo(zombiePrefabArray[0], 15.0f, transform.GetChild(2)),
+            new SpawnInfo(zombiePrefabArray[0], 15.0f, transform.GetChild(0)),
+            new SpawnInfo(zombiePrefabArray[0], 15.0f, transform.GetChild(4))
+
+        };
+
         SpawnInfo[] Level1 = {
 
             new SpawnInfo(zombiePrefabArray[0], 12.0f, transform.GetChild(0)),
@@ -118,6 +128,9 @@ public class AdvancedZombieSpawning : MonoBehaviour
 
         };
 
+        if (level == 0)
+            foreach (SpawnInfo spawnInfo in Tutorial)
+                StartCoroutine(SpawnZombie(spawnInfo));
         if (level == 1)
             foreach(SpawnInfo spawnInfo in Level1)
                 StartCoroutine(SpawnZombie(spawnInfo));
